@@ -1,0 +1,31 @@
+| #  | Actor                           | Action    | Object    |
+| 1  | Depositor                       | Allow     | Access    |
+| 2  | External Collaborator           | Gain      | Access    |
+| 3  | Bath Data Archive Administrator | Query     | Archive   |
+| 4  | Research Information Manager    | Integrate | Archive   |
+| 5  | UnivITservice                   | Integrate | Archive   |
+| 6  | Depositor                       | Link      | Data      |
+| 7  | External Coordinator            | Access    | Data      |
+| 8  | Research Facility Manager       | Deposit   | Data      |
+| 9  | Bath Data Archive Administrator | Import    | Data      |
+| 10 | UnivITservice                   | Store     | Data      |
+| 11 | UnivITservice                   | Store     | Data      |
+| 12 | UnivITservice                   | Export    | Data      |
+| 13 | Depositor                       | Deposit   | Dataset   |
+| 14 | Depositor                       | Deposit   | Dataset   |
+| 15 | Depositor                       | Deposit   | Dataset   |
+| 16 | Depositor                       | Link      | Dataset   |
+| 17 | Depositor                       | Link      | Dataset   |
+| 18 | Research Information Manager    | Have      | Dataset   |
+| 19 | Developer                       | Deposit   | Dataset   |
+| 20 | Depositor                       | Deposit   | File      |
+| 21 | Depositor                       | Deposit   | File      |
+| 22 | Data Reuser                     | Examine   | File      |
+| 23 | Depositor                       | Have      | Guarantee |
+| 24 | External Coordinator            | Have      | Guarantee |
+| 25 | Depositor                       | Have      | Metadata  |
+| 26 | Depositor                       | Attach    | Metadata  |
+| 27 | Bath Data Archive Administrator | Require   | Metadata  |
+| 28 | Fundingbody                     | Harvest   | Metadata  |
+| 29 | Depositor                       | Manage    | Version   |
+| 30 | Data Reuser                     | See       | Version   |

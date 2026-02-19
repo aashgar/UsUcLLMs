@@ -1,0 +1,24 @@
+| # | Actor              | Action   | Object            |
+| 1 | Camp Administrator | Add      | Camper            |
+| 2 | Camp Administrator | Remove   | Camper            |
+| 3 | Camp Administrator | Suspend  | Camper            |
+| 4 | Camp Administrator | Modify   | Camper            |
+| 5 | Camp Administrator | Delete   | Camper            |
+| 6 | Camp Worker        | Report   | Camper            |
+| 7 | Camp Administrator | Upload   | Consent Form      |
+| 8 | Parent             | See      | Consent Form      |
+| 9 | Parent             | Submit   | Consent Form      |
+| 10 | Camp Administrator | Schedule | Activity          |
+| 11 | Camp Administrator | Schedule | Activity          |
+| 12 | Camp Administrator | Create   | Nametag           |
+| 13 | Camp Administrator | Make     | Nametag           |
+| 14 | Camp Administrator | Notify   | Parent            |
+| 15 | Camp Administrator | Add      | Parent            |
+| 16 | Camp Administrator | Modify   | Parent            |
+| 17 | Camp Administrator | Delete   | Parent            |
+| 18 | Camp Administrator | Delete   | Task              |
+| 19 | Camp Administrator | Modify   | Task              |
+| 20 | Parent             | Track    | Activity Schedule |
+| 21 | Parent             | See      | Activity Schedule |
+| 22 | Parent             | See      | Counselor         |
+| 23 | Parent             | Message  | Counselor         |

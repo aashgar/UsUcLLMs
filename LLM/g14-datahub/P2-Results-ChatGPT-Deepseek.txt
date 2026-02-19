@@ -1,0 +1,44 @@
+| #  | Actor         | Action    | Object            |
+| 1  | Admin         | Invite    | Someone           |
+| 2  | Owner         | Invite    | Someone           |
+| 3  | Owner         | Remove    | Someone           |
+| 4  | Publisher     | Import    | Data Package      |
+| 5  | Publisher     | Update    | Data Package      |
+| 6  | Publisher     | Unpublish | Data Package      |
+| 7  | Publisher     | Delete    | Data Package      |
+| 8  | Publisher     | Publish   | Data Package      |
+| 9  | Publisher     | Publish   | Data Package      |
+| 10 | Publisher     | Create    | Data Package      |
+| 11 | Publisher     | Restore   | Data Package      |
+| 12 | Publisher     | Undelete  | Data Package      |
+| 13 | Publisher     | Preview   | Data Package      |
+| 14 | Consumer      | View      | Data Package      |
+| 15 | Consumer      | View      | Data Package      |
+| 16 | Publisher     | Preview   | Data Package      |
+| 17 | Consumer      | See       | Data Package      |
+| 18 | Consumer      | Search    | Data Package      |
+| 19 | Consumer      | Download  | Data Package      |
+| 20 | Developer     | Use       | Data Package      |
+| 21 | Consumer      | Load      | Data Package      |
+| 22 | Data Analyst  | Download  | Data Package      |
+| 23 | Data Analyst  | Update    | Data Package      |
+| 24 | Publisher     | Tag       | Data Package      |
+| 25 | Publisher     | Overwrite | Data Package      |
+| 26 | Publisher     | Version   | Data Package      |
+| 27 | Consumer      | Download  | Data Package      |
+| 28 | Consumer      | Search    | Data Package      |
+| 29 | Publisher     | Have      | Data Package      |
+| 30 | Publisher     | Validate  | Data              |
+| 31 | Publisher     | Validate  | Data              |
+| 32 | Consumer      | Know      | Data              |
+| 33 | Consumer      | Get       | Data              |
+| 34 | Publisher     | Show      | Data              |
+| 35 | Consumer      | Download  | Data              |
+| 36 | Data Analyst  | Compare   | Version           |
+| 37 | Web Developer | Install   | Version           |
+| 38 | Publisher     | Get       | Version           |
+| 39 | Consumer      | See       | Publisher Profile |
+| 40 | Consumer      | View      | Publisher Profile |
+| 41 | Admin         | Have      | Pricing Plan      |
+| 42 | Publisher     | Know      | Pricing Plan      |
+| 43 | Publisher     | Sign Up   | Pricing Plan      |

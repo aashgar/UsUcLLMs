@@ -1,0 +1,99 @@
+Role:
+You are a data processing assistant specialized in text normalization and table manipulation.
+
+Input Format:
+A Markdown table with the following columns: | # | Actor | Action | Object |
+
+Step-by-Step Instructions:
+1. Normalize the Object Column:
+- Convert every word in the Object column to Title Case.
+- Convert all plural nouns in the Object column to their singular form.
+
+2. Filter by Frequency:
+- Analyze the newly normalized Object values.
+- Keep only the rows where the Object value appears two or more times in the entire list.
+- Discard any row where the Object is unique.
+
+3. Group and Sort:
+- Group the remaining rows together by the Object name.
+- Within each Object group, maintain the original relative order of the rows.
+
+4. Renumber and Format:
+Assign a new sequential integer to the # column starting from 1 for the first row of the final output.
+Present the results in a clean Markdown table using the exact original headers: | # | Actor | Action | Object |.
+
+Input Table:
+| #  | Actor                                              | Action      | Object                    |
+| 1  | Team Member                                        | See         | Beta Iteration            |
+| 2  | Developer                                          | Set Up      | Subdomain                 |
+| 3  | Stakeholder                                        | Decide      | Blog Aggregator           |
+| 4  | Nsf Employee                                       | Understand  | Hosting Plan              |
+| 5  | Stakeholder                                        | See         | Research Results          |
+| 6  | Designer                                           | Create      | Wireframe                 |
+| 7  | Team Member                                        | Create      | Prioritized List          |
+| 8  | Team Member                                        | Determine   | Design Direction          |
+| 9  | User Researcher                                    | Test        | Research Plan             |
+| 10 | User Researcher                                    | Finalize    | Task Script               |
+| 11 | Content Editor                                     | Find        | Content                   |
+| 12 | Research Participant                               | Ensure      | Prototype Appearance      |
+| 13 | User Researcher                                    | Create      | Wig Prototype             |
+| 14 | User                                               | Add         | Video                     |
+| 15 | Team Member                                        | Meet        | Cloud.Gov                 |
+| 16 | User Researcher                                    | Create      | Workflow List             |
+| 17 | Team Member                                        | Understand  | Mvp                       |
+| 18 | Nsf Administrator                                  | Shadow      | Cms Implementation        |
+| 19 | Team Member                                        | Update      | Acquisitions Roadmap      |
+| 20 | Nsf Employee                                       | Update      | Roadmap Document          |
+| 21 | Team Member                                        | Understand  | Time Off                  |
+| 22 | Researcher                                         | Develop     | Research Protocol         |
+| 23 | Cms Administrator                                  | Manage      | Roles                     |
+| 24 | Nsf Employee                                       | Identify    | Cms Options               |
+| 25 | Nsf Employee                                       | Conduct     | Final Workshop            |
+| 26 | Cms Sme                                            | View        | Workflow Report           |
+| 27 | Nsf Employee                                       | Understand  | Work Performed            |
+| 28 | Researcher                                         | Recruit     | Research Participants     |
+| 29 | User Researcher                                    | Schedule    | Interviews                |
+| 30 | Nsf Employee                                       | Create      | Strategy Recommendations  |
+| 31 | Nsf Employee                                       | Create      | Editorial Recommendations |
+| 32 | Nsf Employee                                       | Know        | Brand Guidelines          |
+| 33 | Web Recruiter Manager                              | Confirm     | Recruiter                 |
+| 34 | Nsf Employee                                       | Understand  | Design Directions         |
+| 35 | Team Member                                        | Identify    | Hypothesis                |
+| 36 | Content Designer                                   | Understand  | Content Types             |
+| 37 | Team Member                                        | Create      | Prototype Strategy        |
+| 38 | Content Designer                                   | Demonstrate | Content Design            |
+| 39 | User Researcher                                    | Track       | Outreach Success          |
+| 40 | Nsf Employee                                       | Schedule    | Check-Ins                 |
+| 41 | Developer                                          | Identify    | Hypotheses                |
+| 42 | Workshop Attendee                                  | Receive     | Summary                   |
+| 43 | Designer                                           | Identify    | Early Indications         |
+| 44 | Team Member                                        | Create      | Coworking Schedule        |
+| 45 | Nsf Person Interested In Attending User Interviews | Know        | Interview Schedule        |
+| 46 | Nsf Member Of The Team                             | Access      | Reports Documentation     |
+| 47 | Team Member                                        | Know        | Checkin                   |
+| 48 | Nsf Employee                                       | Join        | Github                    |
+| 49 | Nsf Employee                                       | Learn       | Github                    |
+| 50 | User Researcher                                    | Identify    | Interview Participants    |
+| 51 | Visualdesigner                                     | Concept     | Styles                    |
+| 52 | User Researcher                                    | Set Up      | Recruitment Test          |
+| 53 | Web Recruiter Manager                              | Confirm     | Recruiter                 |
+| 54 | Visualdesigner                                     | Create      | Moodboard                 |
+| 55 | Workshop Attendee                                  | See         | Major Findings            |
+| 56 | User Researcher                                    | Invite      | Nsf People                |
+| 57 | User Researcher                                    | Draft       | Research Plan             |
+| 58 | Content Editor                                     | Add         | Videos                    |
+| 59 | Author                                             | Indent      | Content                   |
+| 60 | Visualdesigner                                     | Demonstrate | Visual Design             |
+| 61 | Team Member                                        | Identify    | Visual Tasks              |
+| 62 | Team Member                                        | Prepare     | Email Templates           |
+| 63 | Nsf Employee                                       | Review      | Recruitment Form          |
+| 64 | Potential Research Participant                     | Provide     | Contact Information       |
+| 65 | Team Member                                        | Understand  | Project Timeline          |
+| 66 | Site Administrator                                 | Analyze     | Visual Design             |
+| 67 | Team Member                                        | Use         | Prototyping Platform      |
+| 68 | Site Administrator                                 | Analyze     | Content                   |
+| 69 | User Researcher                                    | Conduct     | User Workshop             |
+| 70 | Nsf Employee                                       | Know        | Meeting Location          |
+| 71 | Designer                                           | Create      | Style Guide               |
+| 72 | Team Member                                        | Know        | Meetings                  |
+| 73 | Team Member                                        | Understand  | Work Flow                 |

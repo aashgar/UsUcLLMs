@@ -1,0 +1,52 @@
+| # | Actor                            | Action   | Object                |
+| 1 | User                             | Click    | Address               |
+| 2 | User                             | View     | Public Information    |
+| 3 | User                             | Get      | Recycling Facilities  |
+| 4 | User                             | Get      | Hours                 |
+| 5 | User                             | Have     | Pick Up Time          |
+| 6 | User                             | Select   | Waste                 |
+| 7 | User                             | Add      | Donation Centers      |
+| 8 | User                             | Give     | Email ID              |
+| 9 | User                             | View     | Map Display           |
+|10 | User                             | View     | Map Display           |
+|11 | User                             | View     | Disposal Events       |
+|12 | User                             | Choose   | Pick Up Time          |
+|13 | User                             | View     | User Documentation    |
+|14 | User                             | Get      | Feedback              |
+|15 | User                             | Create   | Account               |
+|16 | Admin                            | Add      | Recycling Facilities  |
+|17 | Admin                            | Read     | Feedback              |
+|18 | User                             | Check    | Transaction History   |
+|19 | User                             | Have     | UI                    |
+|20 | User                             | Access   | Site                  |
+|21 | Admin                            | Block    | Users                 |
+|22 | Admin                            | View     | Dashboard             |
+|23 | Admin                            | Have     | Data                  |
+|24 | Executive                        | Have     | Data                  |
+|25 | Employee                         | Access   | Route Planning System |
+|26 | Employee                         | Have     | Information           |
+|27 | Developer                        | Access   | API                   |
+|28 | User                             | Receive  | Rewards               |
+|29 | User                             | Have     | Personal Information  |
+|30 | Admin                            | Handle   | Activities            |
+|31 | Company                          | Have     | Website               |
+|32 | Employee                         | Get      | Notifications         |
+|33 | Company Accountant               | View     | Activity Fees         |
+|34 | Developer                        | Use      | Bootstrap             |
+|35 | Developer                        | Attend   | UI/UX Lessons         |
+|36 | User                             | View     | Locations             |
+|37 | User                             | Upload   | Schedule              |
+|38 | User                             | Link     | Email Account         |
+|39 | User                             | Contact  | Administrators        |
+|40 | Admin                            | Add      | Recycling Center Information |
+|41 | Admin                            | View     | Error Logs            |
+|42 | Admin                            | Onboard  | Recycling Centers     |
+|43 | Superuser                        | Update   | Recycling Center Information |
+|44 | Superuser                        | View     | Users' Stats          |
+|45 | Superuser                        | Reply    | User Questions        |
+|46 | Admin                            | Have     | Dashboard             |
+|47 | Admin                            | Communicate | Facilities        |
+|48 | User                             | Browse   | List                  |
+|49 | Recycling Facility Representative | Update   | Information           |
+|50 | Recycling Facility Representative | Have     | Access                |
+|51 | Recycling Facility               | Communicate | Site Admin        |

@@ -1,0 +1,44 @@
+| # | Actor         | Action    | Object            |
+| 1 | Admin         | Invite    | Someone           |
+| 2 | Owner         | Invite    | Someone           |
+| 3 | Owner         | Remove    | Someone           |
+| 4 | Publisher     | Import    | Data Package      |
+| 5 | Publisher     | Update    | Data Package      |
+| 6 | Publisher     | Unpublish | Data Package      |
+| 7 | Publisher     | Delete    | Data Package      |
+| 8 | Publisher     | Publish   | Data Package      |
+| 9 | Publisher     | Publish   | Data Package      |
+| 10 | Publisher     | Create    | Data Package      |
+| 11 | Publisher     | Restore   | Data Package      |
+| 12 | Publisher     | Undelete  | Data Package      |
+| 13 | Publisher     | Preview   | Data Package      |
+| 14 | Consumer      | View      | Data Package      |
+| 15 | Consumer      | View      | Data Package      |
+| 16 | Consumer      | See       | Data Package      |
+| 17 | Consumer      | Search    | Data Package      |
+| 18 | Consumer      | Download  | Data Package      |
+| 19 | Developer     | Use       | Data Package      |
+| 20 | Consumer      | Load      | Data Package      |
+| 21 | Data Analyst  | Download  | Data Package      |
+| 22 | Data Analyst  | Update    | Data Package      |
+| 23 | Publisher     | Version   | Data Package      |
+| 24 | Consumer      | Download  | Data Package      |
+| 25 | Consumer      | Search    | Data Package      |
+| 26 | Publisher     | Have      | Data Package      |
+| 27 | Publisher     | Validate  | Data              |
+| 28 | Publisher     | Validate  | Data              |
+| 29 | Consumer      | Know      | Data              |
+| 30 | Consumer      | Get       | Data              |
+| 31 | Publisher     | Show      | Data              |
+| 32 | Consumer      | Download  | Data              |
+| 33 | Publisher     | Preview   | Datapackage       |
+| 34 | Publisher     | Tag       | Datapackage       |
+| 35 | Publisher     | Overwrite | Datapackage       |
+| 36 | Data Analyst  | Compare   | Version           |
+| 37 | Web Developer | Install   | Version           |
+| 38 | Publisher     | Get       | Version           |
+| 39 | Consumer      | See       | Publisher Profile |
+| 40 | Consumer      | View      | Publisher Profile |
+| 41 | Admin         | Have      | Pricing Plan      |
+| 42 | Publisher     | Know      | Pricing Plan      |
+| 43 | Publisher     | Sign Up   | Pricing Plan      |

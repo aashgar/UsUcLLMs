@@ -1,0 +1,74 @@
+| # | Actor | Action | Object |
+| 1 | Team Member | See | Beta Iteration |
+| 2 | Developer | Set Up | Subdomain |
+| 3 | Stakeholder | Have | Decision |
+| 4 | NSF Employee | Understand | Process |
+| 5 | Stakeholder | See | Research Results |
+| 6 | Designer | Have | Wireframe |
+| 7 | Team Member | Have | Prioritized List |
+| 8 | Team Member | Determine | Design Direction |
+| 9 | User Researcher | Test | Research Plan |
+| 10 | User Researcher | Have | Task Script |
+| 11 | Content Editor | Find | Content |
+| 12 | Research Participant | Ensure | Prototype Appearance |
+| 13 | User Researcher | Have | WIG Prototype |
+| 14 | User | Add | Video |
+| 15 | Team Member | Meet | DIS |
+| 16 | User Researcher | Have | Workflow List |
+| 17 | Team Member | Understand | MVP |
+| 18 | NSF Administrator | Shadow | CMS Implementation |
+| 19 | Team Member | Have | Acquisitions Roadmap |
+| 20 | NSF Employee | Have | Roadmap Document |
+| 21 | Team Member | Understand | Time Off |
+| 22 | Researcher | Develop | Research Protocol |
+| 23 | CMS Administrator | Have | Roles |
+| 24 | NSF Employee | Narrow | CMS Options |
+| 25 | NSF Employee | Have | Final Workshop |
+| 26 | CMS SME | See | Workflow Report |
+| 27 | NSF Employee | Understand | Work Performed |
+| 28 | Researcher | Recruit | User Research |
+| 29 | User Researcher | Schedule | Interviews |
+| 30 | NSF Employee | Have | Strategy Recommendations |
+| 31 | NSF Employee | Have | Editorial Recommendations |
+| 32 | NSF Employee | Know | Brand Guidelines |
+| 33 | Web Recruiter Manager | Confirm | Recruiter Setup |
+| 34 | NSF Employee | Know | Design Directions |
+| 35 | Team Member | Know | First Hypothesis |
+| 36 | Content Designer | Develop | Understanding |
+| 37 | Team Member | Have | Prototype Strategy |
+| 38 | Content Designer | Demonstrate | Content Design |
+| 39 | User Researcher | Know | Outreach Success |
+| 40 | NSF Employee | Schedule | Check-ins |
+| 41 | Developer | Know | Initial Hypotheses |
+| 42 | Workshop Attendee | Have | Summary |
+| 43 | Designer | Know | Hypothesis Indications |
+| 44 | Team Member | Have | Coworking Schedule |
+| 45 | NSF Person | Know | Interview Schedule |
+| 46 | NSF Member | Have | Access Place |
+| 47 | Team Member | Know | Checkin Schedule |
+| 48 | NSF Employee | Join | Github |
+| 49 | NSF Employee | Learn | Github Usage |
+| 50 | User Researcher | Identify | Interview Participants |
+| 51 | Visual Designer | Concept | Styles |
+| 52 | User Researcher | Set Up | Recruitment Test |
+| 53 | Web Recruiter Manager | Confirm | Recruiter Setup |
+| 54 | Visual Designer | Create | Moodboard |
+| 55 | Workshop Attendee | See | Findings Summary |
+| 56 | User Researcher | Invite | NSF People |
+| 57 | User Researcher | Draft | Research Plan |
+| 58 | Content Editor | Add | Videos |
+| 59 | Author | Indent | Content |
+| 60 | Visual Designer | Demonstrate | Visual Design |
+| 61 | Team Member | Know | Design Tasks |
+| 62 | Team Member | Have | Email Templates |
+| 63 | NSF Employee | See | Recruitment Form |
+| 64 | Potential Research Participant | Learn | Research |
+| 65 | Team Member | Have | Project Timeline |
+| 66 | Site Administrator | Understand | Visual Design |
+| 67 | Team Member | Have | Prototype Platform |
+| 68 | Site Administrator | Understand | Content Handling |
+| 69 | User Researcher | Conduct | Definition Workshop |
+| 70 | NSF Employee | Know | Meeting Location |
+| 71 | Designer | Have | Style Guide |
+| 72 | Team Member | Know | Meeting Schedule |
+| 73 | Team Member | Understand | Work Movement |

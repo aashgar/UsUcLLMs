@@ -1,0 +1,105 @@
+Role:
+You are a UML modeler generating deterministic PlantUML code.
+
+Input Format:
+A Markdown table with the following columns: | # | Actor | Action | Object |
+
+STRICT Processing Rules (Deterministic Mode):
+1. Standardization
+   • Replace every value in the Action column with the exact word: Mange
+   • Do not use any other variation (e.g., Manage, manage, MANAGE).
+
+2. Deduplication
+   • After standardization, remove duplicate rows.
+   • A duplicate row is defined as identical values in: (Actor, Action, Object)
+   • Keep only the first occurrence.
+   • Preserve original row order after deduplication.
+
+3. Use Case Construction
+   • Each Use Case name must be constructed exactly as: Mange + space + Object
+   • Example:
+	o Object = Permit
+	o Use Case name = Mange Permit
+   • Each Use Case must appear only once.
+   • Sort Use Cases alphabetically by their full name.
+   • Assign aliases sequentially:
+	o UC1, UC2, UC3, ...
+	o In alphabetical order of Use Case names.
+
+4. Actor Construction
+   • Each Actor must appear only once.
+   • Sort Actors alphabetically.
+   • Assign aliases sequentially:
+	o A1, A2, A3, ...
+	o In alphabetical order of Actor names.
+
+5. Association Rules
+   • Link Actors to Use Cases based strictly on the table rows.
+   • Each Actor → Use Case pair must appear only once.
+   • Associations must be sorted:
+1. By Actor alias (A1, A2, ...)
+2. Then by Use Case alias (UC1, UC2, ...)
+
+6. Layout Rules (Deterministic)
+Actors must be visually balanced using this strict rule:
+   • Actors with Odd alias numbers (A1, A3, A5, ...)
+	o Use format: A# --> UC#
+   • Actors with Even alias numbers (A2, A4, A6, ...)
+	o Use format: UC# <-- A#
+Do not deviate from this rule.
+
+7️. Output Structure (MANDATORY TEMPLATE)
+   • You MUST follow this structure exactly.
+   • Do not add, remove, or reorder sections.
+   • Do not include explanations.
+   • Do not include markdown backticks.
+   • Output only valid PlantUML code.
+
+@startuml
+left to right direction
+'Actors (alphabetical order)
+actor "Actor Name 1" as A1
+actor "Actor Name 2" as A2
+actor "Actor Name 3" as A3
+rectangle {
+  'Use Cases (alphabetical order)
+  (Mange Object 1) as UC1
+  (Mange Object 2) as UC2
+}
+'Associations (sorted by Actor alias, then Use Case alias)
+A1 --> UC1
+UC1 <-- A2
+UC2 <-- A2
+A3 --> UC2
+@enduml
+
+Additional Constraints
+   • Always include: left to right direction
+   • Always name the rectangle exactly: rectangle {
+   • Always use:
+	o Parentheses around use cases
+	o Double quotes around actor names
+	o Aliases exactly in the format A# and UC#
+   • Do not insert extra comments.
+   • Do not add styling.
+   • Do not add skinparam.
+   • Do not add titles.
+
+Input Table:
+| #  | Actor                            | Action      | Object               |
+| 1  | User                             | Have        | Pick Up Time         |
+| 2  | User                             | Choose      | Pick Up Time         |
+| 3  | User                             | View        | Map                  |
+| 4  | User                             | View        | Map                  |
+| 5  | User                             | Get         | Feedback             |
+| 6  | Admin                            | Read        | Feedback             |
+| 7  | Admin                            | Add         | Facility Information |
+| 8  | Admin                            | Add         | Facility Information |
+| 9  | Admin                            | View        | Dashboard            |
+| 10 | Admin                            | Have        | Dashboard            |
+| 11 | User                             | View        | Recycling Center     |
+| 12 | Admin                            | Onboard     | Recycling Center     |
+| 13 | User                             | Browse      | Facility             |
+| 14 | Admin                            | Communicate | Facility             |
+| 15 | Superuser                        | View        | User Stat            |
+| 16 | RecyclingFacility Representative | Have        | User Stat            |

@@ -1,0 +1,132 @@
+Role:
+You are a UML modeler generating deterministic PlantUML code.
+
+Input Format:
+A Markdown table with the following columns: | # | Actor | Action | Object |
+
+STRICT Processing Rules (Deterministic Mode):
+1. Standardization
+   • Replace every value in the Action column with the exact word: Mange
+   • Do not use any other variation (e.g., Manage, manage, MANAGE).
+
+2. Deduplication
+   • After standardization, remove duplicate rows.
+   • A duplicate row is defined as identical values in: (Actor, Action, Object)
+   • Keep only the first occurrence.
+   • Preserve original row order after deduplication.
+
+3. Use Case Construction
+   • Each Use Case name must be constructed exactly as: Mange + space + Object
+   • Example:
+	o Object = Permit
+	o Use Case name = Mange Permit
+   • Each Use Case must appear only once.
+   • Sort Use Cases alphabetically by their full name.
+   • Assign aliases sequentially:
+	o UC1, UC2, UC3, ...
+	o In alphabetical order of Use Case names.
+
+4. Actor Construction
+   • Each Actor must appear only once.
+   • Sort Actors alphabetically.
+   • Assign aliases sequentially:
+	o A1, A2, A3, ...
+	o In alphabetical order of Actor names.
+
+5. Association Rules
+   • Link Actors to Use Cases based strictly on the table rows.
+   • Each Actor → Use Case pair must appear only once.
+   • Associations must be sorted:
+1. By Actor alias (A1, A2, ...)
+2. Then by Use Case alias (UC1, UC2, ...)
+
+6. Layout Rules (Deterministic)
+Actors must be visually balanced using this strict rule:
+   • Actors with Odd alias numbers (A1, A3, A5, ...)
+	o Use format: A# --> UC#
+   • Actors with Even alias numbers (A2, A4, A6, ...)
+	o Use format: UC# <-- A#
+Do not deviate from this rule.
+
+7️. Output Structure (MANDATORY TEMPLATE)
+   • You MUST follow this structure exactly.
+   • Do not add, remove, or reorder sections.
+   • Do not include explanations.
+   • Do not include markdown backticks.
+   • Output only valid PlantUML code.
+
+@startuml
+left to right direction
+'Actors (alphabetical order)
+actor "Actor Name 1" as A1
+actor "Actor Name 2" as A2
+actor "Actor Name 3" as A3
+rectangle {
+  'Use Cases (alphabetical order)
+  (Mange Object 1) as UC1
+  (Mange Object 2) as UC2
+}
+'Associations (sorted by Actor alias, then Use Case alias)
+A1 --> UC1
+UC1 <-- A2
+UC2 <-- A2
+A3 --> UC2
+@enduml
+
+Additional Constraints
+   • Always include: left to right direction
+   • Always name the rectangle exactly: rectangle {
+   • Always use:
+	o Parentheses around use cases
+	o Double quotes around actor names
+	o Aliases exactly in the format A# and UC#
+   • Do not insert extra comments.
+   • Do not add styling.
+   • Do not add skinparam.
+   • Do not add titles.
+
+Input Table:
+| #  | Actor         | Action    | Object            |
+| 1  | Publisher     | Publish   | Data              |
+| 2  | Publisher     | Validate  | Data              |
+| 3  | Publisher     | Validate  | Data              |
+| 4  | Consumer      | Know      | Data              |
+| 5  | Consumer      | Get       | Data              |
+| 6  | Publisher     | Show      | Data              |
+| 7  | Consumer      | Download  | Data              |
+| 8  | Publisher     | Import    | Data Package      |
+| 9  | Publisher     | Update    | Data Package      |
+| 10 | Publisher     | Unpublish | Data Package      |
+| 11 | Publisher     | Delete    | Data Package      |
+| 12 | Publisher     | Publish   | Data Package      |
+| 13 | Publisher     | Publish   | Data Package      |
+| 14 | Publisher     | Create    | Data Package      |
+| 15 | Publisher     | Restore   | Data Package      |
+| 16 | Publisher     | Undelete  | Data Package      |
+| 17 | Publisher     | Preview   | Data Package      |
+| 18 | Consumer      | View      | Data Package      |
+| 19 | Consumer      | View      | Data Package      |
+| 20 | Publisher     | Preview   | Datapackage       |
+| 21 | Consumer      | See       | Data Package      |
+| 22 | Consumer      | Search    | Data Package      |
+| 23 | Consumer      | Download  | Data Package      |
+| 24 | Developer     | Use       | Data Package      |
+| 25 | Consumer      | Load      | Data Package      |
+| 26 | Data Analyst  | Download  | Data Package      |
+| 27 | Data Analyst  | Update    | Data Package      |
+| 28 | Publisher     | Tag       | Datapackage       |
+| 29 | Publisher     | Overwrite | Datapackage       |
+| 30 | Publisher     | Version   | Data Package      |
+| 31 | Consumer      | Download  | Data Package      |
+| 32 | Consumer      | Search    | Data Package      |
+| 33 | Publisher     | Have      | Data Package      |
+| 34 | Admin         | Have      | Pricing Plan      |
+| 35 | Publisher     | Know      | Pricing Plan      |
+| 36 | Publisher     | Sign Up   | Pricing Plan      |
+| 37 | Owner         | Invite    | Someone           |
+| 38 | Owner         | Remove    | Someone           |
+| 39 | Consumer      | See       | Publisher Profile |
+| 40 | Consumer      | View      | Publisher Profile |
+| 41 | Data Analyst  | Compare   | Version           |
+| 42 | Web Developer | Install   | Version           |
+| 43 | Publisher     | Get       | Version           |

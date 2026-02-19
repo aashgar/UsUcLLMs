@@ -1,0 +1,86 @@
+Role:
+You are a data processing assistant specialized in text normalization and table manipulation.
+
+Input Format:
+A Markdown table with the following columns: | # | Actor | Action | Object |
+
+Step-by-Step Instructions:
+1. Normalize the Object Column:
+- Convert every word in the Object column to Title Case.
+- Convert all plural nouns in the Object column to their singular form.
+
+2. Filter by Frequency:
+- Analyze the newly normalized Object values.
+- Keep only the rows where the Object value appears two or more times in the entire list.
+- Discard any row where the Object is unique.
+
+3. Group and Sort:
+- Group the remaining rows together by the Object name.
+- Within each Object group, maintain the original relative order of the rows.
+
+4. Renumber and Format:
+Assign a new sequential integer to the # column starting from 1 for the first row of the final output.
+Present the results in a clean Markdown table using the exact original headers: | # | Actor | Action | Object |.
+
+Input Table:
+| #  | Actor            | Action      | Object                    |
+| 1  | User             | Search      | Music                     |
+| 2  | User             | Search      | Music                     |
+| 3  | User             | Search      | Music                     |
+| 4  | User             | Search      | Music                     |
+| 5  | User             | Search      | Content Items             |
+| 6  | User             | Upload      | Tagged Videos             |
+| 7  | User             | View        | Thumbnail Sequences       |
+| 8  | User             | Get         | Video Items               |
+| 9  | User             | Get         | Video Items               |
+| 10 | User             | Receive     | Content Recommendations   |
+| 11 | User             | Receive     | Content Recommendations   |
+| 12 | User             | Identify    | Persons                   |
+| 13 | User             | Identify    | Products                  |
+| 14 | User             | Identify    | Broadcaster Logos         |
+| 15 | User             | Identify    | Brands                    |
+| 16 | User             | Take        | Picture                   |
+| 17 | User             | Access      | Content                   |
+| 18 | User             | Search      | Content Items             |
+| 19 | Admin            | See         | Segmentation              |
+| 20 | Admin            | Annotate    | News Segments             |
+| 21 | Admin            | Filter      | Videos                    |
+| 22 | Admin            | Get         | Audio Material            |
+| 23 | Admin            | Prefilter   | Nudity Content            |
+| 24 | Admin            | Prefilter   | Content                   |
+| 25 | Admin            | Validate    | Ingested Contents         |
+| 26 | Admin            | Prefilter   | Content                   |
+| 27 | Zooniverse Admin | Assess      | Picture                   |
+| 28 | Zooniverse Admin | Detect      | Scientist                 |
+| 29 | Zooniverse Admin | Identify    | Volunteer Types           |
+| 30 | Zooniverse Admin | Preclassify | Galaxy Zoo Images         |
+| 31 | Zooniverse Admin | Detect      | Snapshot Serengeti Images |
+| 32 | Zooniverse Admin | Perform     | Image Series              |
+| 33 | Zooniverse Admin | Perform     | Animal Species            |
+| 34 | Zooniverse Admin | Perform     | Animal Attribute          |
+| 35 | Zooniverse Admin | Perform     | Animal Number             |
+| 36 | Zooniverse Admin | Perform     | Plankton                  |
+| 37 | Zooniverse Admin | Detect      | Plankton Portal Images    |
+| 38 | Zooniverse Admin | Perform     | Plankton Size             |
+| 39 | Zooniverse Admin | Perform     | Plankton Species          |
+| 40 | Zooniverse Admin | Perform     | Worm Motion               |
+| 41 | Zooniverse Admin | Detect      | Worm Watch Lab Video      |
+| 42 | Zooniverse Admin | Detect      | Important Features        |
+| 43 | Zooniverse Admin | Assess      | Volunteer Classification  |
+| 44 | Zooniverse Admin | Perform     | Image Prefiltering        |
+| 45 | Zooniverse Admin | Detect      | Moving Objects            |
+| 46 | Zooniverse Admin | Remove      | Background Noise          |
+| 47 | Zooniverse Admin | Group       | Whale Calls               |
+| 48 | Zooniverse Admin | Identify    | Whale Number              |
+| 49 | Zooniverse Admin | Know        | Volunteer                 |
+| 50 | Zooniverse Admin | Know        | Volunteer                 |
+| 51 | Zooniverse Admin | Know        | Volunteer                 |
+| 52 | Zooniverse Admin | Know        | Volunteer                 |
+| 53 | Zooniverse Admin | Know        | Education Piece           |
+| 54 | Zooniverse Admin | Know        | Volunteer Comment         |
+| 55 | Zooniverse Admin | Know        | Zoonibot Comment          |
+| 56 | Zooniverse Admin | Know        | Zoonibot Explanation      |
+| 57 | Zooniverse Admin | Know        | Zoonibot Statement        |
+| 58 | Zooniverse Admin | Group       | Subjects                  |
+| 59 | Zooniverse Admin | Recommend   | Projects                  |
+| 60 | Admin            | See         | Articles                  |

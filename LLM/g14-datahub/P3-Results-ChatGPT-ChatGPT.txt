@@ -1,0 +1,33 @@
+@startuml
+left to right direction
+'Actors (alphabetical order)
+actor "Admin" as A1
+actor "Consumer" as A2
+actor "Data Analyst" as A3
+actor "Developer" as A4
+actor "Owner" as A5
+actor "Publisher" as A6
+actor "Web Developer" as A7
+rectangle {
+'Use Cases (alphabetical order)
+(Mange Data) as UC1
+(Mange Data Package) as UC2
+(Mange Pricing Plan) as UC3
+(Mange Publisher Profile) as UC4
+(Mange Someone) as UC5
+(Mange Version) as UC6
+}
+'Associations (sorted by Actor alias, then Use Case alias)
+A1 --> UC3
+UC1 <-- A2
+UC2 <-- A2
+UC4 <-- A2
+A3 --> UC2
+A3 --> UC6
+A4 --> UC2
+A5 --> UC5
+UC1 <-- A6
+UC2 <-- A6
+UC3 <-- A6
+UC6 <-- A6
+@enduml

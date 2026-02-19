@@ -1,0 +1,54 @@
+| #  | Actor                           | Action       | Object          |
+| 1  | Depositor                       | Deposit      | Datasets        |
+| 2  | Depositor                       | Have         | User Interface  |
+| 3  | Depositor                       | Deposit      | Datasets        |
+| 4  | Depositor                       | Deposit      | Datasets        |
+| 5  | Depositor                       | Deposit      | Files           |
+| 6  | Depositor                       | Place        | Embargo         |
+| 7  | Depositor                       | Apply        | Licenses        |
+| 8  | Depositor                       | Allow        | Access          |
+| 9  | Depositor                       | Deposit      | Files           |
+| 10 | Depositor                       | Link         | Datasets        |
+| 11 | Depositor                       | Mint         | DOIs            |
+| 12 | Depositor                       | Have         | Metadata        |
+| 13 | Depositor                       | Link         | Data            |
+| 14 | Depositor                       | Specify      | Disposal Policy |
+| 15 | Depositor                       | Track        | Downloads       |
+| 16 | Depositor                       | Track        | Citations       |
+| 17 | Depositor                       | Have         | Guarantees      |
+| 18 | Depositor                       | Attach       | Metadata        |
+| 19 | Depositor                       | Link         | Datasets        |
+| 20 | Depositor                       | Manage       | Research Data   |
+| 21 | Depositor                       | Manage       | Versions        |
+| 22 | Depositor                       | Allow        | Others          |
+| 23 | Data Reuser                     | Search       | Archive         |
+| 24 | Data Reuser                     | Access       | System          |
+| 25 | Data Reuser                     | Examine      | Files           |
+| 26 | Data Reuser                     | View         | Citation        |
+| 27 | Data Reuser                     | View         | DOI             |
+| 28 | Data Reuser                     | Get          | URL             |
+| 29 | Data Reuser                     | Search       | Archive         |
+| 30 | Data Reuser                     | See          | Versions        |
+| 31 | External Collaborator           | Gain         | Access          |
+| 32 | External Coordinator            | Have         | Guarantees      |
+| 33 | External Coordinator            | Access       | Data            |
+| 34 | Research Facility Manager       | Deposit      | Data            |
+| 35 | Bath Data Archive Administrator | Make         | Checks          |
+| 36 | Bath Data Archive Administrator | Require      | Metadata        |
+| 37 | Bath Data Archive Administrator | Approve      | Disposal        |
+| 38 | Bath Data Archive Administrator | Query        | Archive         |
+| 39 | Bath Data Archive Administrator | Import       | Data            |
+| 40 | Bath Data Archive Administrator | Promote      | Standards       |
+| 41 | Research Information Manager    | Integrate    | Archive         |
+| 42 | Research Information Manager    | Include      | Records         |
+| 43 | Research Information Manager    | Track        | Citation Counts |
+| 44 | Research Information Manager    | Segment      | Statistics      |
+| 45 | Research Information Manager    | Have         | Datasets        |
+| 46 | UnivITservice                   | Store        | Data            |
+| 47 | UnivITservice                   | Integrate    | Archive         |
+| 48 | UnivITservice                   | Store        | Data            |
+| 49 | UnivITservice                   | Export       | Data            |
+| 50 | Developer                       | Deposit      | Datasets        |
+| 51 | Academicpublisher               | Make         | Web Links       |
+| 52 | Fundingbody                     | Be Reassured | Archival Plans  |
+| 53 | Fundingbody                     | Harvest      | Metadata        |

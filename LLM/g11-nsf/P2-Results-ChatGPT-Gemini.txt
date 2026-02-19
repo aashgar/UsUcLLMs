@@ -1,0 +1,18 @@
+#,Actor,Action,Object
+1,Content Editor,Find,Content
+2,Author,Indent,Content
+3,Site Administrator,Analyze,Content
+4,Nsf Employee,Join,Github
+5,Nsf Employee,Learn,Github
+6,Team Member,Identify,Hypothesis
+7,Developer,Identify,Hypothesis
+8,Team Member,Know,Meeting
+9,Team Member,Know,Meeting
+10,Web Recruiter Manager,Confirm,Recruiter
+11,Web Recruiter Manager,Confirm,Recruiter
+12,User Researcher,Test,Research Plan
+13,User Researcher,Draft,Research Plan
+14,User,Add,Video
+15,Content Editor,Add,Video
+16,Visualdesigner,Demonstrate,Visual Design
+17,Site Administrator,Analyze,Visual Design

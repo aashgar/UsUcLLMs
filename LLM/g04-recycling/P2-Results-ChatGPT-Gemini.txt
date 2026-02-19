@@ -1,0 +1,21 @@
+#,Actor,Action,Object
+1,User,Contact,Administrator
+2,RecyclingFacility,Communicate,Admin
+3,Admin,View,Dashboard
+4,Admin,Have,Dashboard
+5,Admin,Communicate,Facility
+6,User,Browse,Facility
+7,Admin,Add,Facility Information
+8,Admin,Add,Facility Information
+9,User,Get,Feedback
+10,Admin,Read,Feedback
+11,User,View,Information
+12,RecyclingFacility Representative,Update,Information
+13,User,View,Map
+14,User,View,Map
+15,User,Have,Pick Up Time
+16,User,Choose,Pick Up Time
+17,User,View,Recycling Center
+18,Admin,Onboard,Recycling Center
+19,Superuser,View,User Stat
+20,RecyclingFacility Representative,Have,User Stat

@@ -1,0 +1,31 @@
+@startuml
+left to right direction
+
+'Actors (alphabetical order)
+actor "Archivist" as A1
+actor "Basic Data Entry User" as A2
+actor "Readonly User" as A3
+actor "Repository Manager" as A4
+actor "User" as A5
+
+rectangle {
+  'Use Cases (alphabetical order)
+  (Mange Agent Information) as UC1
+  (Mange Agent Record) as UC2
+  (Mange Archival Description) as UC3
+  (Mange Ead File) as UC4
+  (Mange Enum List) as UC5
+  (Mange Instance) as UC6
+}
+
+'Associations (sorted by Actor alias, then Use Case alias)
+A1 --> UC1
+A1 --> UC2
+A1 --> UC4
+A1 --> UC6
+UC3 <-- A2
+A3 --> UC3
+UC3 <-- A4
+A5 --> UC5
+
+@enduml

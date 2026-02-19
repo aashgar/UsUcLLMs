@@ -1,0 +1,19 @@
+| # | Actor                            | Action      | Object                |
+| 1 | User                             | Have        | Pick Up Time          |
+| 2 | User                             | Choose      | Pick Up Time          |
+| 3 | User                             | View        | Map                   |
+| 4 | User                             | View        | Map                   |
+| 5 | User                             | Get         | Feedback              |
+| 6 | Admin                            | Read        | Feedback              |
+| 7 | Admin                            | Add         | Facility Information  |
+| 8 | Admin                            | Add         | Facility Information  |
+| 9 | User                             | Have        | Ui/Ux                 |
+| 10 | Developer                        | Attend      | Ui/Ux                 |
+| 11 | Admin                            | View        | Dashboard             |
+| 12 | Admin                            | Have        | Dashboard             |
+| 13 | User                             | View        | Recycling Center      |
+| 14 | Admin                            | Onboard     | Recycling Center      |
+| 15 | Superuser                        | View        | User Stat             |
+| 16 | RecyclingFacility Representative | Have        | User Stat             |
+| 17 | Admin                            | Communicate | Facility              |
+| 18 | User                             | Browse      | Facility              |

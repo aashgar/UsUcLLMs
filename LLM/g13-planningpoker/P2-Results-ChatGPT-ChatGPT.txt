@@ -1,0 +1,25 @@
+| #  | Actor       | Action   | Object         |
+| 1  | Moderator   | Create   | Game           |
+| 2  | Moderator   | Delete   | Game           |
+| 3  | Estimator   | Join     | Game           |
+| 4  | Moderator   | See      | Item           |
+| 5  | Moderator   | Select   | Item           |
+| 6  | Moderator   | Add      | Item           |
+| 7  | Moderator   | Edit     | Item           |
+| 8  | Moderator   | Delete   | Item           |
+| 9  | Estimator   | See      | Item           |
+| 10 | Estimator   | See      | Item           |
+| 11 | Moderator   | Show     | Estimate       |
+| 12 | Moderator   | Enter    | Estimate       |
+| 13 | Participant | See      | Estimate       |
+| 14 | Participant | Change   | Estimate       |
+| 15 | Participant | See      | Estimate       |
+| 16 | Participant | Change   | Estimate       |
+| 17 | Participant | View     | Estimate       |
+| 18 | Moderator   | Estimate | Story          |
+| 19 | Moderator   | Import   | Story          |
+| 20 | Moderator   | Paste    | Story          |
+| 21 | Participant | Scroll   | Story Estimate |
+| 22 | Moderator   | View     | Transcript     |
+| 23 | Moderator   | Export   | Transcript     |
+| 24 | Moderator   | Export   | Transcript     |

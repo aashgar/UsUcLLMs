@@ -1,0 +1,56 @@
+#,Actor,Action,Object
+1,Camp Administrator,Add,Campers
+2,Camp Administrator,Remove,Campers
+3,Camp Administrator,Keep,Camper Records
+4,Camp Administrator,Upload,Consent Forms
+5,Camp Administrator,Track,Submitted Forms
+6,Camp Administrator,Schedule,Activities
+7,Camp Administrator,Create,Nametags
+8,Camp Administrator,Suspend,Camper
+9,Camp Administrator,Set,Reminders
+10,Camp Administrator,Assign,Staff Positions
+11,Camp Administrator,Warn,Camp Worker
+12,Camp Administrator,Create,Rules
+13,Camp Administrator,Track,Facility Usage
+14,Camp Administrator,Create,Avenue
+15,Camp Administrator,Store,Emergency Information
+16,Camp Administrator,Store,Parent Information
+17,Camp Administrator,Provide,Feedback
+18,Camp Administrator,Make,Nametags
+19,Camp Administrator,Create,Registration Form
+20,Camp Administrator,Keep,Information
+21,Camp Administrator,See,Medical Forms
+22,Camp Administrator,Notify,Parents
+23,Camp Administrator,Log,Attendance
+24,Camp Administrator,Add,Parents
+25,Camp Administrator,Create,Groups
+26,Camp Administrator,See,Camp Groups
+27,Camp Administrator,Schedule,Tasks Activities
+28,Camp Administrator,Delete,Tasks Activities
+29,Camp Administrator,Modify,Tasks Events
+30,Camp Administrator,Modify,Enrolled Campers
+31,Camp Administrator,Delete,Campers
+32,Camp Administrator,Modify,Added Parents
+33,Camp Administrator,Delete,Parents
+34,Camp Administrator,Modify,Group Information
+35,Camp Administrator,See,Events
+36,Parent,See,Consent Forms
+37,Parent,Track,Child Activity
+38,Parent,Submit,Various Forms
+39,Parent,Create,Account
+40,Parent,See,Counselors
+41,Parent,Message,Child Counselors
+42,Parent,Sign,Consent Forms
+43,Parent,See,Necessary Payments
+44,Parent,Share,Photos
+45,Parent,Connect,Staff
+46,Parent,Enroll,Children
+47,Parent,See,Enrolled Children
+48,Parent,See,Schedule
+49,Camp Worker,See,Campers
+50,Camp Worker,Submit,Completion Report
+51,Camp Worker,Report,Camper
+52,Camp Worker,Report,Supplies List
+53,Camp Worker,Report,Necessary Repairs
+54,Camp Worker,See,Campers
+55,Camp Counselor,Take,Attendance

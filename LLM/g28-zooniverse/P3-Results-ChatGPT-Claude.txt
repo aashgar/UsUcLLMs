@@ -1,0 +1,31 @@
+@startuml
+left to right direction
+
+'Actors (alphabetical order)
+actor "Admin" as A1
+actor "User" as A2
+actor "Zooniverse Admin" as A3
+
+rectangle {
+  'Use Cases (alphabetical order)
+  (Mange Content) as UC1
+  (Mange Content Item) as UC2
+  (Mange Content Recommendation) as UC3
+  (Mange Music) as UC4
+  (Mange Picture) as UC5
+  (Mange Video Item) as UC6
+  (Mange Volunteer) as UC7
+}
+
+'Associations (sorted by Actor alias, then Use Case alias)
+A1 --> UC1
+UC1 <-- A2
+UC2 <-- A2
+UC3 <-- A2
+UC4 <-- A2
+UC5 <-- A2
+UC6 <-- A2
+A3 --> UC5
+A3 --> UC7
+
+@enduml

@@ -1,0 +1,36 @@
+@startuml
+left to right direction
+'Actors (alphabetical order)
+actor "Author" as A1
+actor "Content Editor" as A2
+actor "Developer" as A3
+actor "Nsf Employee" as A4
+actor "Researcher" as A5
+actor "Site Administrator" as A6
+actor "Team Member" as A7
+actor "User Researcher" as A8
+actor "Visualdesigner" as A9
+actor "Web Recruiter Manager" as A10
+rectangle {
+'Use Cases (alphabetical order)
+(Mange Content) as UC1
+(Mange Github) as UC2
+(Mange Hypothesis) as UC3
+(Mange Recruiter) as UC4
+(Mange Research Participant) as UC5
+(Mange Research Plan) as UC6
+(Mange Visual Design) as UC7
+}
+'Associations (sorted by Actor alias, then Use Case alias)
+A1 --> UC1
+UC1 <-- A2
+A3 --> UC3
+UC2 <-- A4
+A5 --> UC5
+UC7 <-- A6
+A7 --> UC3
+UC5 <-- A8
+UC6 <-- A8
+A9 --> UC7
+UC4 <-- A10
+@enduml

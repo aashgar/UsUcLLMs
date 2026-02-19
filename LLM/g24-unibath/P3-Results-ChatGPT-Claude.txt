@@ -1,0 +1,52 @@
+@startuml
+left to right direction
+
+'Actors (alphabetical order)
+actor "Bath Data Archive Administrator" as A1
+actor "Data Reuser" as A2
+actor "Depositor" as A3
+actor "Developer" as A4
+actor "External Collaborator" as A5
+actor "External Coordinator" as A6
+actor "Fundingbody" as A7
+actor "Research Facility Manager" as A8
+actor "Research Information Manager" as A9
+actor "UnivITservice" as A10
+
+rectangle {
+  'Use Cases (alphabetical order)
+  (Mange Access) as UC1
+  (Mange Archive) as UC2
+  (Mange Data) as UC3
+  (Mange Dataset) as UC4
+  (Mange File) as UC5
+  (Mange Guarantee) as UC6
+  (Mange Metadata) as UC7
+  (Mange Version) as UC8
+}
+
+'Associations (sorted by Actor alias, then Use Case alias)
+A1 --> UC2
+A1 --> UC3
+A1 --> UC7
+UC5 <-- A2
+UC8 <-- A2
+A3 --> UC1
+A3 --> UC3
+A3 --> UC4
+A3 --> UC5
+A3 --> UC6
+A3 --> UC7
+A3 --> UC8
+UC4 <-- A4
+A5 --> UC1
+UC3 <-- A6
+UC6 <-- A6
+A7 --> UC7
+UC3 <-- A8
+A9 --> UC2
+A9 --> UC4
+UC2 <-- A10
+UC3 <-- A10
+
+@enduml

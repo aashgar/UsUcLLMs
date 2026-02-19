@@ -1,0 +1,77 @@
+Role:
+You are a data processing assistant specialized in text normalization and table manipulation.
+
+Input Format:
+A Markdown table with the following columns: | # | Actor | Action | Object |
+
+Step-by-Step Instructions:
+1. Normalize the Object Column:
+- Convert every word in the Object column to Title Case.
+- Convert all plural nouns in the Object column to their singular form.
+
+2. Filter by Frequency:
+- Analyze the newly normalized Object values.
+- Keep only the rows where the Object value appears two or more times in the entire list.
+- Discard any row where the Object is unique.
+
+3. Group and Sort:
+- Group the remaining rows together by the Object name.
+- Within each Object group, maintain the original relative order of the rows.
+
+4. Renumber and Format:
+Assign a new sequential integer to the # column starting from 1 for the first row of the final output.
+Present the results in a clean Markdown table using the exact original headers: | # | Actor | Action | Object |.
+
+Input Table:
+| #  | Actor                            | Action      | Object                |
+| 1  | User                             | Click       | Address               |
+| 2  | User                             | View        | Public Information    |
+| 3  | User                             | Enter       | Zip Code              |
+| 4  | User                             | Get         | Facility Hours        |
+| 5  | User                             | Have        | Pick Up Time          |
+| 6  | User                             | Select      | Waste Types           |
+| 7  | User                             | Add         | Favorites             |
+| 8  | User                             | Give        | Email                 |
+| 9  | User                             | View        | Map                   |
+| 10 | User                             | View        | Map                   |
+| 11 | User                             | View        | Disposal Events       |
+| 12 | User                             | Choose      | Pick Up Time          |
+| 13 | User                             | View        | Documentation         |
+| 14 | User                             | Get         | Feedback              |
+| 15 | User                             | Create      | Account               |
+| 16 | Admin                            | Add         | Facility Information  |
+| 17 | Admin                            | Read        | Feedback              |
+| 18 | User                             | Check       | Transaction History   |
+| 19 | User                             | Have        | UI/UX                 |
+| 20 | User                             | Access      | Site                  |
+| 21 | Admin                            | Block       | Users                 |
+| 22 | Admin                            | View        | Dashboard             |
+| 23 | Admin                            | Have        | Data Encryption       |
+| 24 | Executive                        | Have        | Data Access           |
+| 25 | Employee                         | Access      | Route Planning        |
+| 26 | Employee from HR Department      | Access      | Employee Information  |
+| 27 | Developer                        | Access      | API                   |
+| 28 | User                             | Receive     | Rewards               |
+| 29 | User                             | Keep        | Personal Information  |
+| 30 | Admin                            | Handle      | User Activities       |
+| 31 | Company                          | Have        | Website               |
+| 32 | Employee                         | Get         | Notifications         |
+| 33 | Company Accountant               | View        | Activity Fees         |
+| 34 | Developer                        | Use         | Bootstrap             |
+| 35 | Developer                        | Attend      | UI/UX Lessons         |
+| 36 | User                             | View        | Recycling Centers     |
+| 37 | User                             | Upload      | Schedule              |
+| 38 | User                             | Link        | Email Account         |
+| 39 | User                             | Contact     | Administrators        |
+| 40 | Admin                            | Add         | Facility Information  |
+| 41 | Admin                            | View        | Error Logs            |
+| 42 | Admin                            | Onboard     | Recycling Centers     |
+| 43 | Superuser                        | Update      | Recycling Center Info |
+| 44 | Superuser                        | View        | User Stats            |
+| 45 | Superuser                        | Reply       | User Questions        |
+| 46 | Admin                            | Have        | Dashboard             |
+| 47 | Admin                            | Communicate | Facilities            |
+| 48 | User                             | Browse      | Facilities            |
+| 49 | RecyclingFacility Representative | Update      | Information           |
+| 50 | RecyclingFacility Representative | Have        | User Stats            |
+| 51 | RecyclingFacility                | Communicate | Admin                 |

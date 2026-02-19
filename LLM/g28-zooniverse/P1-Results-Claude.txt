@@ -1,0 +1,61 @@
+| # | Actor | Action | Object |
+| 1 | User | Search | Music |
+| 2 | User | Search | Music |
+| 3 | User | Search | Music |
+| 4 | User | Search | Music |
+| 5 | User | Search | Music |
+| 6 | User | Upload | Videos |
+| 7 | User | View | Thumbnail Sequences |
+| 8 | User | Get | Video Items |
+| 9 | User | Get | Video Items |
+| 10 | User | Receive | Content Recommendations |
+| 11 | User | Receive | Content Recommendations |
+| 12 | User | Identify | Persons |
+| 13 | User | Identify | Products |
+| 14 | User | Identify | Logos |
+| 15 | User | Identify | Brands |
+| 16 | User | Upload | Image |
+| 17 | User | Access | Content |
+| 18 | User | Search | Content Items |
+| 19 | Admin | Edit | Segmentation |
+| 20 | Admin | Annotate | Video Segments |
+| 21 | Admin | Rank | Videos |
+| 22 | Admin | Assess | Audio Material |
+| 23 | Admin | Prefilter | Nudity Content |
+| 24 | Admin | Prefilter | Content |
+| 25 | Admin | Validate | Contents |
+| 26 | Admin | Prefilter | Content |
+| 27 | Zooniverse Admin | Assess | Picture |
+| 28 | Zooniverse Admin | Detect | Subject |
+| 29 | Zooniverse Admin | Identify | Volunteer Types |
+| 30 | Zooniverse Admin | Preclassify | Images |
+| 31 | Zooniverse Admin | Detect | Images |
+| 32 | Zooniverse Admin | Perform | Series Detection |
+| 33 | Zooniverse Admin | Perform | Species Preclassification |
+| 34 | Zooniverse Admin | Perform | Attribute Preclassification |
+| 35 | Zooniverse Admin | Perform | Number Detection |
+| 36 | Zooniverse Admin | Perform | Plankton Segmentation |
+| 37 | Zooniverse Admin | Detect | Plankton Images |
+| 38 | Zooniverse Admin | Perform | Plankton Detection |
+| 39 | Zooniverse Admin | Perform | Species Preclassification |
+| 40 | Zooniverse Admin | Perform | Worm Analysis |
+| 41 | Zooniverse Admin | Detect | Egg Time |
+| 42 | Zooniverse Admin | Detect | Features |
+| 43 | Zooniverse Admin | Assess | Classification Probability |
+| 44 | Zooniverse Admin | Perform | Image Prefiltering |
+| 45 | Zooniverse Admin | Detect | Moving Objects |
+| 46 | Zooniverse Admin | Remove | Background Noise |
+| 47 | Zooniverse Admin | Group | Whale Calls |
+| 48 | Zooniverse Admin | Identify | Whale Number |
+| 49 | Zooniverse Admin | Know | Interrupt Timing |
+| 50 | Zooniverse Admin | Know | Interrupt Format |
+| 51 | Zooniverse Admin | Know | Education Timing |
+| 52 | Zooniverse Admin | Know | Education Format |
+| 53 | Zooniverse Admin | Know | Education Piece |
+| 54 | Zooniverse Admin | Know | Volunteer Comment |
+| 55 | Zooniverse Admin | Know | Comment Timing |
+| 56 | Zooniverse Admin | Know | Explanation Timing |
+| 57 | Zooniverse Admin | Know | Volunteer Response |
+| 58 | Zooniverse Admin | Group | Subjects |
+| 59 | Zooniverse Admin | Recommend | Projects |
+| 60 | Admin | See | Article Summary |

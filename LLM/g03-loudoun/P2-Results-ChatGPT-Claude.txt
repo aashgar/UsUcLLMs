@@ -1,0 +1,20 @@
+| # | Actor                        | Action   | Object        |
+| 1 | Applicant                    | Submit   | Application   |
+| 2 | Applicant                    | Modify   | Application   |
+| 3 | Staff Member                 | Assign   | Application   |
+| 4 | Staff Member                 | Apply    | Hold          |
+| 5 | Staff Member                 | Remove   | Hold          |
+| 6 | Plan Review Staff Member     | Assign   | Plan          |
+| 7 | Plan Review Staff Member     | Review   | Plan          |
+| 8 | Applicant                    | Resubmit | Plan          |
+| 9 | Plan Review Staff Supervisor | Manage   | Workload      |
+| 10 | Inspection Supervisor        | Manage   | Workload      |
+| 11 | Applicant                    | Request  | Plan Review   |
+| 12 | Plan Review Staff Member     | Conduct  | Plan Review   |
+| 13 | Plan Review Staff Member     | Track    | Plan Review   |
+| 14 | Zoning Staff Member          | Issue    | Permit        |
+| 15 | Development Staff Member     | Issue    | Permit        |
+| 16 | Customer                     | Request  | Inspection    |
+| 17 | Inspection Staff Member      | Create   | Inspection    |
+| 18 | Inspection Staff Supervisor  | Assign   | Inspection    |
+| 19 | Inspector                    | Conduct  | Inspection    |

@@ -1,0 +1,37 @@
+| #  | Actor                           | Action       | Object    |
+| 1  | Depositor                       | Deposit      | Dataset   |
+| 2  | Depositor                       | Deposit      | Dataset   |
+| 3  | Depositor                       | Deposit      | Dataset   |
+| 4  | Depositor                       | Link         | Dataset   |
+| 5  | Depositor                       | Link         | Dataset   |
+| 6  | Research Information Manager    | Have         | Dataset   |
+| 7  | Developer                       | Deposit      | Dataset   |
+| 8  | Depositor                       | Deposit      | File      |
+| 9  | Depositor                       | Deposit      | File      |
+| 10 | Data Reuser                     | Examine      | File      |
+| 11 | Depositor                       | Allow        | Access    |
+| 12 | External Collaborator           | Gain         | Access    |
+| 13 | Depositor                       | Mint         | Doi       |
+| 14 | Data Reuser                     | View         | Doi       |
+| 15 | Depositor                       | Have         | Metadata  |
+| 16 | Depositor                       | Attach       | Metadata  |
+| 17 | Bath Data Archive Administrator | Require      | Metadata  |
+| 18 | Fundingbody                     | Harvest      | Metadata  |
+| 19 | Depositor                       | Link         | Data      |
+| 20 | External Coordinator            | Access       | Data      |
+| 21 | Research Facility Manager       | Deposit      | Data      |
+| 22 | Bath Data Archive Administrator | Import       | Data      |
+| 23 | UnivITservice                   | Store        | Data      |
+| 24 | UnivITservice                   | Store        | Data      |
+| 25 | UnivITservice                   | Export       | Data      |
+| 26 | Depositor                       | Track        | Citation  |
+| 27 | Data Reuser                     | View         | Citation  |
+| 28 | Depositor                       | Have         | Guarantee |
+| 29 | External Coordinator            | Have         | Guarantee |
+| 30 | Depositor                       | Manage       | Version   |
+| 31 | Data Reuser                     | See          | Version   |
+| 32 | Data Reuser                     | Search       | Archive   |
+| 33 | Data Reuser                     | Search       | Archive   |
+| 34 | Bath Data Archive Administrator | Query        | Archive   |
+| 35 | Research Information Manager    | Integrate    | Archive   |
+| 36 | UnivITservice                   | Integrate    | Archive   |

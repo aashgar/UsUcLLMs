@@ -1,0 +1,58 @@
+| # | Actor                     | Action    | Object                 |
+| 1 | Public User              | Search    | Information            |
+| 2 | Prospective Applicant     | Select    | Service                |
+| 3 | Applicant                | Request   | Pre-Application Assistance |
+| 4 | Customer                 | Create    | Customer Portal User Account |
+| 5 | Applicant                | Submit    | Application            |
+| 6 | Applicant                | Submit    | Supporting Documentation |
+| 7 | Applicant                | Pay       | Fee                    |
+| 8 | Applicant                | Check     | Transaction Status     |
+| 9 | Applicant                | Modify    | Application            |
+| 10| Staff Member             | Perform   | Completeness Review    |
+| 11| Staff Member             | Record    | Internal Note          |
+| 12| Staff Member             | Assign    | Application            |
+| 13| Staff Member             | Apply     | Hold                   |
+| 14| Staff Member             | Remove    | Hold                   |
+| 15| Staff Member             | Send      | Formal Response        |
+| 16| Staff Member             | Track     | Draft Proffers         |
+| 17| Staff Member             | Manage    | Approved Proffers      |
+| 18| Staff Member             | Manage    | Ordinances             |
+| 19| Staff Member             | Schedule  | Meeting                |
+| 20| Staff Member             | Denote    | Application            |
+| 21| Planning Staff Member    | Conduct   | Plan Amendments        |
+| 22| Planning Staff Member    | Generate  | Planning-Related Reports |
+| 23| Planning Staff Member    | Evaluate  | Consistency            |
+| 24| Staff Member             | Perform   | Staff Review           |
+| 25| Zoning Staff Member      | Process   | Requests               |
+| 26| Zoning Staff Member      | Issue     | Zoning-Related Permits |
+| 27| Staff Member             | Develop   | Staff Report           |
+| 28| Staff Member             | Manage    | Hearing Calendars      |
+| 29| Staff Member             | Assign    | Hearing Date           |
+| 30| Staff Member             | Manage    | Affidavits             |
+| 31| Applicant                | Satisfy   | Hearing Requirements   |
+| 32| Staff Member             | Prepare   | Hearing Execution      |
+| 33| Staff Member             | Capture   | Hearing Decision       |
+| 34| Staff Member             | Process   | Appeals                |
+| 35| Plan Review Staff Member | Assign    | Plans                  |
+| 36| Plan Review Staff Supervisor | Manage | Plan Reviewer Workload |
+| 37| Applicant                | Request   | Plan Review Meeting    |
+| 38| Plan Review Staff Member | Conduct   | Plan Review Meeting    |
+| 39| Plan Review Staff Member | Review    | Plans                  |
+| 40| Applicant                | Resubmit  | Plans                  |
+| 41| Plan Review Staff Member | Review    | Code Modifications     |
+| 42| Plan Review Staff Member | Track     | Completion             |
+| 43| Development Staff Member | Issue     | Development-Related Permit |
+| 44| Staff Member             | Manage    | Bonds                  |
+| 45| Applicant                | Complete  | Building Development Project |
+| 46| Customer                 | Request   | Inspection             |
+| 47| Inspection Staff Member  | Create    | Inspection             |
+| 48| Inspection Staff Supervisor | Assign | Inspections            |
+| 49| Inspection Supervisor    | Manage    | Inspector Workload     |
+| 50| Inspector                | Conduct   | Inspections            |
+| 51| Enforcement Staff Member | Issue     | Notice Of Violation    |
+| 52| Staff Member             | Search    | Property Information   |
+| 53| Staff Member             | Notified  | Geospatial Attributes  |
+| 54| County Staff Member      | Create    | Custom Query           |
+| 55| Staff Member             | Create    | Condo Unit             |
+| 56| Technical Staff Member   | Update    | GIS Property Management |
+| 57| Staff Member             | Send      | Citations              |
