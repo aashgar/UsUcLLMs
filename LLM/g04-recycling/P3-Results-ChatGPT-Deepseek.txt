@@ -7,14 +7,14 @@ actor "Superuser" as A3
 actor "User" as A4
 rectangle {
   'Use Cases (alphabetical order)
-  (Mange Dashboard) as UC1
-  (Mange Facility Information) as UC2
-  (Mange Facility) as UC3
-  (Mange Feedback) as UC4
-  (Mange Map) as UC5
-  (Mange Pick Up Time) as UC6
-  (Mange Recycling Center) as UC7
-  (Mange User Stat) as UC8
+  (Manage Dashboard) as UC1
+  (Manage Facility Information) as UC2
+  (Manage Facility) as UC3
+  (Manage Feedback) as UC4
+  (Manage Map) as UC5
+  (Manage Pick Up Time) as UC6
+  (Manage Recycling Center) as UC7
+  (Manage User Stat) as UC8
 }
 'Associations (sorted by Actor alias, then Use Case alias)
 A1 --> UC1

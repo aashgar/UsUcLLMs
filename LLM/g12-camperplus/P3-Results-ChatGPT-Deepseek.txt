@@ -7,16 +7,16 @@ actor "Camp Worker" as A3
 actor "Parent" as A4
 rectangle {
   'Use Cases (alphabetical order)
-  (Mange Activity) as UC1
-  (Mange Activity Schedule) as UC2
-  (Mange Attendance) as UC3
-  (Mange Camper) as UC4
-  (Mange Consent Form) as UC5
-  (Mange Counselor) as UC6
-  (Mange Nametag) as UC7
-  (Mange Parent Information) as UC8
-  (Mange Parent) as UC9
-  (Mange Task) as UC10
+  (Manage Activity) as UC1
+  (Manage Activity Schedule) as UC2
+  (Manage Attendance) as UC3
+  (Manage Camper) as UC4
+  (Manage Consent Form) as UC5
+  (Manage Counselor) as UC6
+  (Manage Nametag) as UC7
+  (Manage Parent Information) as UC8
+  (Manage Parent) as UC9
+  (Manage Task) as UC10
 }
 'Associations (sorted by Actor alias, then Use Case alias)
 A1 --> UC1

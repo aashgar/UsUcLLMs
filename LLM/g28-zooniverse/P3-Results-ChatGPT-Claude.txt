@@ -8,13 +8,13 @@ actor "Zooniverse Admin" as A3
 
 rectangle {
   'Use Cases (alphabetical order)
-  (Mange Content) as UC1
-  (Mange Content Item) as UC2
-  (Mange Content Recommendation) as UC3
-  (Mange Music) as UC4
-  (Mange Picture) as UC5
-  (Mange Video Item) as UC6
-  (Mange Volunteer) as UC7
+  (Manage Content) as UC1
+  (Manage Content Item) as UC2
+  (Manage Content Recommendation) as UC3
+  (Manage Music) as UC4
+  (Manage Picture) as UC5
+  (Manage Video Item) as UC6
+  (Manage Volunteer) as UC7
 }
 
 'Associations (sorted by Actor alias, then Use Case alias)

@@ -8,12 +8,12 @@ actor "Repository Manager" as A4
 actor "User" as A5
 rectangle {
 'Use Cases (alphabetical order)
-(Mange Agent Information) as UC1
-(Mange Agent Record) as UC2
-(Mange Archival Description) as UC3
-(Mange Ead File) as UC4
-(Mange Enum List) as UC5
-(Mange Instance) as UC6
+(Manage Agent Information) as UC1
+(Manage Agent Record) as UC2
+(Manage Archival Description) as UC3
+(Manage Ead File) as UC4
+(Manage Enum List) as UC5
+(Manage Instance) as UC6
 }
 'Associations (sorted by Actor alias, then Use Case alias)
 A1 --> UC1

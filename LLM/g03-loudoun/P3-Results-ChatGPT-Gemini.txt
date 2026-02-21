@@ -14,13 +14,13 @@ actor "Staff Member" as A10
 actor "Zoning Staff Member" as A11
 rectangle {
 'Use Cases (alphabetical order)
-(Mange Application) as UC1
-(Mange Hold) as UC2
-(Mange Inspection) as UC3
-(Mange Permit) as UC4
-(Mange Plan) as UC5
-(Mange Plan Review) as UC6
-(Mange Workload) as UC7
+(Manage Application) as UC1
+(Manage Hold) as UC2
+(Manage Inspection) as UC3
+(Manage Permit) as UC4
+(Manage Plan) as UC5
+(Manage Plan Review) as UC6
+(Manage Workload) as UC7
 }
 'Associations (sorted by Actor alias, then Use Case alias)
 A1 --> UC1

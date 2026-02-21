@@ -15,13 +15,13 @@ actor "Web Recruiter Manager" as A10
 
 rectangle {
   'Use Cases (alphabetical order)
-  (Mange Content) as UC1
-  (Mange Github) as UC2
-  (Mange Hypothesis) as UC3
-  (Mange Recruiter) as UC4
-  (Mange Research Participant) as UC5
-  (Mange Research Plan) as UC6
-  (Mange Visual Design) as UC7
+  (Manage Content) as UC1
+  (Manage Github) as UC2
+  (Manage Hypothesis) as UC3
+  (Manage Recruiter) as UC4
+  (Manage Research Participant) as UC5
+  (Manage Research Plan) as UC6
+  (Manage Visual Design) as UC7
 }
 
 'Associations (sorted by Actor alias, then Use Case alias)

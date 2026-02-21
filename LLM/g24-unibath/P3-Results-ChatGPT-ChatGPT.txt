@@ -13,14 +13,14 @@ actor "Research Information Manager" as A9
 actor "UnivITservice" as A10
 rectangle {
 'Use Cases (alphabetical order)
-(Mange Access) as UC1
-(Mange Archive) as UC2
-(Mange Data) as UC3
-(Mange Dataset) as UC4
-(Mange File) as UC5
-(Mange Guarantee) as UC6
-(Mange Metadata) as UC7
-(Mange Version) as UC8
+(Manage Access) as UC1
+(Manage Archive) as UC2
+(Manage Data) as UC3
+(Manage Dataset) as UC4
+(Manage File) as UC5
+(Manage Guarantee) as UC6
+(Manage Metadata) as UC7
+(Manage Version) as UC8
 }
 'Associations (sorted by Actor alias, then Use Case alias)
 A1 --> UC2

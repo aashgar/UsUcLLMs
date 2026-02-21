@@ -6,8 +6,8 @@ A Markdown table with the following columns: | # | Actor | Action | Object |
 
 STRICT Processing Rules (Deterministic Mode):
 1. Standardization
-   • Replace every value in the Action column with the exact word: Mange
-   • Do not use any other variation (e.g., Manage, manage, MANAGE).
+   • Replace every value in the Action column with the exact word: Manage
+   • Do not use any other variation (e.g., manage, MANAGE, or any alternative spelling).
 
 2. Deduplication
    • After standardization, remove duplicate rows.
