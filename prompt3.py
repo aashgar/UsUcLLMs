@@ -8,14 +8,11 @@ import re
 # ==========================
 file_path = "LLM/usecases.xlsx"   # Excel file containing scripts
 
-#sheet_name = "g03-loudoun-p3"
 #sheet_name = "g04-recycling-p3"
 #sheet_name = "g11-nsf-p3"
 #sheet_name = "g12-camperplus-p3"
 #sheet_name = "g13-planningpoker-p3"
-#sheet_name = "g14-datahub-p3"
 #sheet_name = "g23-archivesspace-p3"
-#sheet_name = "g24-unibath-p3"
 sheet_name =  "g28-zooniverse-p3"
 
 # ==========================

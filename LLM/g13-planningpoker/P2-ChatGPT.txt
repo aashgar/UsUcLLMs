@@ -6,7 +6,6 @@ A Markdown table with the following columns: | # | Actor | Action | Object |
 
 Step-by-Step Instructions:
 1. Normalize the Object Column:
-- Convert every word in the Object column to Title Case.
 - Convert all plural nouns in the Object column to their singular form.
 
 2. Filter by Frequency:

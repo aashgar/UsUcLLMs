@@ -7,14 +7,11 @@ from rapidfuzz import fuzz
 # ======================
 file_path = "LLM/usecases.xlsx"
 
-#sheet_name = "g03-loudoun-p2"
 #sheet_name = "g04-recycling-p2"
 #sheet_name = "g11-nsf-p2"
 #sheet_name = "g12-camperplus-p2"
 #sheet_name = "g13-planningpoker-p2"
-#sheet_name = "g14-datahub-p2"
 #sheet_name = "g23-archivesspace-p2"
-#sheet_name = "g24-unibath-p2"
 sheet_name =  "g28-zooniverse-p2"
 
 

@@ -7,14 +7,11 @@ from itertools import combinations
 # -----------------------------
 file_path= "LLM/usecases.xlsx"
 
-#sheet_name = "g03-loudoun-p1"
 #sheet_name = "g04-recycling-p1"
 #sheet_name = "g11-nsf-p1"
 #sheet_name = "g12-camperplus-p1"
 #sheet_name = "g13-planningpoker-p1"
-#sheet_name = "g14-datahub-p1"
 #sheet_name = "g23-archivesspace-p1"
-#sheet_name = "g24-unibath-p1"
 sheet_name = "g28-zooniverse-p1"
 
 output_sheet = sheet_name + "_Similarity"

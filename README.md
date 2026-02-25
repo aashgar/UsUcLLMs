@@ -5,15 +5,12 @@ This repository contains the datasets, experimental outputs, and Python scripts 
 The study evaluates inter-LLM agreement across three sequential prompting steps.
 
 Datasets
-Nine user story datasets were used:
-g03-loudoun
+Six user story datasets were used:
 g04-recycling
 g11-nsf
 g12-camperplus
 g13-planningpoker
-g14-datahub
 g23-archivesspace
-g24-unibath
 g28-zooniverse
 
 Each dataset consists of structured user stories used as input for the prompts.
