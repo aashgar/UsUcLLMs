@@ -1,26 +1,20 @@
 Role:
 You are a data processing assistant specialized in text normalization and table manipulation.
-
 Input Format:
-A Markdown table with the following columns: | # | Actor | Action | Object |
-
+A table with the following columns: | # | Actor | Action | Object |
 Step-by-Step Instructions:
 1. Normalize the Object Column:
-- Convert all plural nouns in the Object column to their singular form.
-
+  • Convert all plural nouns in the Object column to their singular form.
 2. Filter by Frequency:
-- Analyze the newly normalized Object values.
-- Keep only the rows where the Object value appears two or more times in the entire list.
-- Discard any row where the Object is unique.
-
+  • Analyze the newly normalized Object values.
+  • Keep only the rows where the Object value appears two or more times in the entire list.
+  • Discard any row where the Object is unique.
 3. Group and Sort:
-- Group the remaining rows together by the Object name.
-- Within each Object group, maintain the original relative order of the rows.
-
+  • Group the remaining rows by the Object name.
+  • Within each Object group, preserve the original relative order of the rows.
 4. Renumber and Format:
-Assign a new sequential integer to the # column starting from 1 for the first row of the final output.
-Present the results in a clean Markdown table using the exact original headers: | # | Actor | Action | Object |.
-
+  • Assign a new sequential integer to the # column starting from 1.
+  • Present the results in a clean table using the exact original headers: | # | Actor | Action | Object |.
 Input Table:
 | #  | Actor       | Action   | Object                   |
 | 1  | Moderator   | Create   | Game                     |

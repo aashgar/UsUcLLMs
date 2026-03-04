@@ -98,23 +98,55 @@ for i in range(4):
             sim_matrix.iloc[i, j] = round(sum(weighted_scores) / len(weighted_scores), 2)
 
 # -----------------------------
-# Prepare OUTPUT (ONLY MATRIX + OVERALL)
+# Append Summary Rows
+# -----------------------------
+summary_row = {col: "" for col in df.columns}
+summary_row[df.columns[0]] = "OVERALL AVERAGE"
+summary_row['Actor_Similarity_Avg'] = overall_actor_avg
+summary_row['Action_Similarity_Avg'] = overall_action_avg
+summary_row['Object_Similarity_Avg'] = overall_object_avg
+
+weighted_row = {col: "" for col in df.columns}
+weighted_row[df.columns[0]] = "weightED OVERALL AVERAGE"
+weighted_row['Object_Similarity_Avg'] = overall_weighted_avg
+
+df_final = pd.concat([
+    df,
+    pd.DataFrame([summary_row]),
+    pd.DataFrame([weighted_row])
+], ignore_index=True)
+
+# -----------------------------
+# Prepare sim_matrix for Right-Side Placement
 # -----------------------------
 sim_matrix_display = sim_matrix.reset_index()
 sim_matrix_display.columns = ["LLM"] + llm_names
 
-overall_row = pd.DataFrame([[
-    "OVERALL AGREEMENT",
-    overall_weighted_avg,
-    "",
-    "",
-    ""
-]], columns=sim_matrix_display.columns)
+# Extend sim_matrix rows to match df_final height
+if len(sim_matrix_display) < len(df_final):
+    extra_rows = pd.DataFrame(
+        [[""] * len(sim_matrix_display.columns)] *
+        (len(df_final) - len(sim_matrix_display)),
+        columns=sim_matrix_display.columns
+    )
+    sim_matrix_display = pd.concat([sim_matrix_display, extra_rows], ignore_index=True)
 
-df_output = pd.concat(
-    [sim_matrix_display, overall_row],
-    ignore_index=True
-)
+# Rename to avoid column duplication
+sim_matrix_display.columns = [col for col in sim_matrix_display.columns]
+
+# -----------------------------
+# Add Empty Separator Column
+# -----------------------------
+separator_column = pd.DataFrame({"": [""] * len(df_final)})
+
+# -----------------------------
+# Merge Everything
+# -----------------------------
+df_output = pd.concat([
+    df_final.reset_index(drop=True),
+    separator_column,
+    sim_matrix_display.reset_index(drop=True)
+], axis=1)
 
 # -----------------------------
 # Write to Excel
