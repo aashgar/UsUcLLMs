@@ -2,9 +2,7 @@ import pandas as pd
 from rapidfuzz import fuzz
 from itertools import combinations
 
-# -----------------------------
-# Configuration
-# -----------------------------
+
 file_path= "LLM/usecases.xlsx"
 
 #sheet_name = "g04-recycling-p1"
@@ -26,9 +24,7 @@ weight_object = 0.4
 
 llm_names = ["LLM1", "LLM2", "LLM3", "LLM4"]
 
-# -----------------------------
-# Helper Functions
-# -----------------------------
+
 def similarity(a, b):
     return fuzz.token_sort_ratio(
         str(a).lower().strip(),
@@ -44,14 +40,10 @@ def average_pairwise_similarity(values):
     scores = [fuzz.token_sort_ratio(a, b) for a, b in pairs]
     return round(sum(scores) / len(scores), 2)
 
-# -----------------------------
-# Read Data
-# -----------------------------
+
 df = pd.read_excel(file_path, sheet_name=sheet_name)
 
-# -----------------------------
-# Row-wise Similarity
-# -----------------------------
+
 df['Actor_Similarity_Avg'] = df.apply(
     lambda row: average_pairwise_similarity(row[llm_columns_actor]), axis=1)
 
@@ -72,9 +64,7 @@ overall_weighted_avg = round(
     2
 )
 
-# -----------------------------
-# weighted Similarity sim_matrix
-# -----------------------------
+
 sim_matrix = pd.DataFrame(index=llm_names, columns=llm_names)
 
 for i in range(4):
@@ -97,9 +87,7 @@ for i in range(4):
 
             sim_matrix.iloc[i, j] = round(sum(weighted_scores) / len(weighted_scores), 2)
 
-# -----------------------------
-# Prepare OUTPUT (ONLY MATRIX + OVERALL)
-# -----------------------------
+
 sim_matrix_display = sim_matrix.reset_index()
 sim_matrix_display.columns = ["LLM"] + llm_names
 
@@ -116,9 +104,7 @@ df_output = pd.concat(
     ignore_index=True
 )
 
-# -----------------------------
 # Write to Excel
-# -----------------------------
 with pd.ExcelWriter(file_path, engine='openpyxl', mode='a',
                     if_sheet_exists='replace') as writer:
     df_output.to_excel(writer, sheet_name=output_sheet, index=False)

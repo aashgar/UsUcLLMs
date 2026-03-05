@@ -3,10 +3,8 @@ import numpy as np
 from rapidfuzz import fuzz
 import re
 
-# ==========================
-# SETTINGS
-# ==========================
-file_path = "LLM/usecases.xlsx"   # Excel file containing scripts
+
+file_path = "LLM/usecases.xlsx" 
 
 #sheet_name = "g04-recycling-p3"
 #sheet_name = "g11-nsf-p3"
@@ -15,9 +13,6 @@ file_path = "LLM/usecases.xlsx"   # Excel file containing scripts
 #sheet_name = "g23-archivesspace-p3"
 sheet_name =  "g28-zooniverse-p3"
 
-# ==========================
-# HELPER FUNCTIONS
-# ==========================
 
 def normalize_plantuml(text):
     if pd.isna(text):
@@ -31,9 +26,6 @@ def script_similarity(script1, script2):
     s2 = normalize_plantuml(script2)
     return fuzz.token_sort_ratio(s1, s2)
 
-# ==========================
-# LOAD DATA
-# ==========================
 
 df = pd.read_excel(file_path, sheet_name=sheet_name)
 
@@ -44,9 +36,6 @@ for col in llm_columns:
     full_script = "\n".join(df[col].dropna().astype(str))
     scripts.append(full_script)
 
-# ==========================
-# BUILD SIMILARITY MATRIX
-# ==========================
 
 n = len(scripts)
 
@@ -71,9 +60,6 @@ for i in range(n):
 
 overall_agreement = round(np.mean(pairwise_scores), 2)
 
-# ==========================
-# PREPARE OUTPUT TABLE
-# ==========================
 
 summary_df = pd.DataFrame({
     "Metric": ["Overall Agreement Across All LLMs"],
@@ -86,9 +72,7 @@ combined_df = pd.concat(
     ignore_index=True
 )
 
-# ==========================
-# WRITE TO SAME FILE (NEW SHEET)
-# ==========================
+# Write to Excel
 output_sheet = f"{sheet_name}_similarity"
 with pd.ExcelWriter(file_path, engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
     combined_df.to_excel(writer, sheet_name=output_sheet, index=False)

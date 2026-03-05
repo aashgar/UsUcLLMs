@@ -2,9 +2,6 @@ import pandas as pd
 import numpy as np
 from rapidfuzz import fuzz
 
-# ======================
-# SETTINGS
-# ======================
 file_path = "LLM/usecases.xlsx"
 
 #sheet_name = "g04-recycling-p2"
@@ -14,11 +11,10 @@ file_path = "LLM/usecases.xlsx"
 #sheet_name = "g23-archivesspace-p2"
 sheet_name =  "g28-zooniverse-p2"
 
-
 weight_actor = 0.3
 weight_action = 0.2
 weight_object = 0.5
-# ======================
+
 
 def safe_str(x):
     return "" if pd.isna(x) else str(x)
@@ -30,9 +26,6 @@ def weighted_row_similarity(r1, r2):
     return weight_actor * actor_sim + weight_action * action_sim + weight_object * object_sim
 
 
-# ======================
-# BIDIRECTIONAL TABLE SIMILARITY
-# ======================
 def directional_similarity(df1, df2):
     scores = []
     for _, row1 in df1.iterrows():
@@ -49,9 +42,6 @@ def bidirectional_similarity(df1, df2):
     return (forward + backward) / 2
 
 
-# ======================
-# MAIN
-# ======================
 df = pd.read_excel(file_path, sheet_name=sheet_name)
 
 llm_numbers = sorted({int(col.split("_LLM")[-1]) for col in df.columns if "_LLM" in col})
@@ -66,9 +56,6 @@ for i in llm_numbers:
     llm_tables[i] = temp
 
 
-# ======================
-# BUILD ROW-LEVEL AGREEMENT (BIDIRECTIONAL)
-# ======================
 all_rows = []
 
 for llm_id, table in llm_tables.items():
@@ -107,9 +94,6 @@ for llm_id, table in llm_tables.items():
 main_table = pd.DataFrame(all_rows)
 
 
-# ======================
-# BUILD BIDIRECTIONAL SIMILARITY MATRIX
-# ======================
 n = len(llm_numbers)
 
 sim_matrix = pd.DataFrame(
@@ -141,9 +125,7 @@ sim_matrix_reset = sim_matrix.reset_index()
 sim_matrix_reset.rename(columns={"index": "LLM"}, inplace=True)
 
 
-# ======================
-# COMBINE MAIN TABLE + EMPTY COLUMN + MATRIX
-# ======================
+# Combine
 max_rows = max(len(main_table), len(sim_matrix_reset))
 
 main_table_extended = main_table.reindex(range(max_rows))
@@ -156,9 +138,7 @@ final_output = pd.concat(
     axis=1
 )
 
-# ======================
-# WRITE TO EXCEL
-# ======================
+# Write to Excel
 output_sheet = f"{sheet_name}_similarity"
 
 with pd.ExcelWriter(file_path, engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
