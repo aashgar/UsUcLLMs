@@ -1,0 +1,15 @@
+| #  | Actor                     | Action       | Object               |
+| 1  | User                      | Manage       | Enum List            |
+| 2  | User                      | Manage       | Enum List            |
+| 3  | User                      | Support      | Enum List            |
+| 4  | Archivist                 | Import       | EAD File             |
+| 5  | Archivist                 | Import       | EAD File             |
+| 6  | Archivist                 | Import       | Agent Information    |
+| 7  | Archivist                 | Import       | Agent Information    |
+| 8  | Archivist                 | Export       | Agent Record         |
+| 9  | Archivist                 | Create       | Agent Record         |
+| 10 | Archivist                 | Associate    | Instance             |
+| 11 | Archivist                 | Associate    | Instance             |
+| 12 | Repository Manager        | Manage       | Archival Description |
+| 13 | Basic Data Entry User     | Manage       | Archival Description |
+| 14 | Readonly User             | View         | Archival Description |

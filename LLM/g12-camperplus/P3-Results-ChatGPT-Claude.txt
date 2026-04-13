@@ -1,0 +1,39 @@
+@startuml
+left to right direction
+
+'Actors (alphabetical order)
+actor "Camp Administrator" as A1
+actor "Camp Counselor" as A2
+actor "Camp Worker" as A3
+actor "Parent" as A4
+
+rectangle {
+  'Use Cases (alphabetical order)
+  (Manage Activity) as UC1
+  (Manage Activity Schedule) as UC2
+  (Manage Attendance) as UC3
+  (Manage Camper) as UC4
+  (Manage Consent Form) as UC5
+  (Manage Counselor) as UC6
+  (Manage Nametag) as UC7
+  (Manage Parent) as UC8
+  (Manage Parent Information) as UC9
+  (Manage Task) as UC10
+}
+
+'Associations (sorted by Actor alias, then Use Case alias)
+A1 --> UC1
+A1 --> UC3
+A1 --> UC4
+A1 --> UC5
+A1 --> UC7
+A1 --> UC8
+A1 --> UC9
+A1 --> UC10
+UC3 <-- A2
+A3 --> UC4
+UC2 <-- A4
+UC5 <-- A4
+UC6 <-- A4
+
+@enduml

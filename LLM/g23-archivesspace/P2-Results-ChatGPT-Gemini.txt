@@ -1,0 +1,15 @@
+#,Actor,Action,Object
+1,Archivist,Export,Agent Record
+2,Archivist,Create,Agent Record
+3,Archivist,Import,Agent Information
+4,Archivist,Import,Agent Information
+5,Repository Manager,Manage,Archival Description
+6,Basic Data Entry User,Manage,Archival Description
+7,Readonly User,View,Archival Description
+8,Archivist,Import,Ead File
+9,Archivist,Import,Ead File
+10,User,Manage,Enum List
+11,User,Manage,Enum List
+12,User,Support,Enum List
+13,Archivist,Associate,Instance
+14,Archivist,Associate,Instance

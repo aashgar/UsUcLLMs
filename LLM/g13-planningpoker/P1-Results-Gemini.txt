@@ -1,0 +1,54 @@
+#,Actor,Action,Object
+1,Moderator,Create,New Game
+2,Moderator,Invite,Estimators
+3,Moderator,Start,Round
+4,Moderator,See,Items
+5,Moderator,Select,Item
+6,Moderator,Add,Item
+7,Moderator,Edit,Item
+8,Moderator,Delete,Item
+9,Moderator,Show,Estimates
+10,Moderator,Accept,Average
+11,Moderator,Have,Estimate Field
+12,Moderator,Enter,Estimate
+13,Moderator,Estimate,Story
+14,Moderator,Import,Stories
+15,Moderator,Copy/Paste,Stories
+16,Moderator,Browse,Previous Games
+17,Moderator,View,Game Transcript
+18,Moderator,Export,Game Transcript
+19,Moderator,Export,Game Transcript
+20,Moderator,Delete,Game
+21,Moderator,Create,Account
+22,Moderator,Log In,Account
+23,Moderator,Change,Account Details
+24,Moderator,Delete,Account
+25,Moderator,See,Dates Times
+26,Moderator,Get,Password Reminder
+27,Moderator,Select,Sequence
+28,Moderator,Invite,Estimators
+29,Estimator,Join,Game
+30,Estimator,See,Item
+31,Estimator,See,Items
+32,Participant,See,Estimate
+33,Participant,Shown,Estimates
+34,Participant,Change,Estimate
+35,Participant,See,Prior Estimates
+36,Participant,See,Estimates
+37,Participant,Start,Countdown Timer
+38,Participant,Have,Timer
+39,Participant,Scroll,Stories Estimates
+40,Participant,Have,Cards
+41,Participant,Change,Estimate
+42,Participant,Have,Thumbnail Photo
+43,Developer,Written,Site
+44,Developer,Have,Definitions List
+45,Developer,Created,Database Indexes
+46,Developer,Have,Application Function
+47,Developer,Comply,Accessibility Guidelines
+48,User,Respond,Application
+49,User,Use,Unicode
+50,User,See,Urls
+51,User,Have,Error Pages
+52,Researcher,Stored,Results
+53,Mike,See,Metrics

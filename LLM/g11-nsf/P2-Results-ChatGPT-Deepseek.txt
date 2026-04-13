@@ -1,0 +1,18 @@
+| # | Actor                 | Action      | Object          |
+| 1  | Team Member           | Determine   | Design Direction |
+| 2  | Nsf Employee          | Understand  | Design Direction |
+| 3  | User Researcher       | Test        | Research Plan    |
+| 4  | User Researcher       | Draft       | Research Plan    |
+| 5  | Content Editor        | Find        | Content          |
+| 6  | Author                | Indent      | Content          |
+| 7  | Site Administrator    | Analyze     | Content          |
+| 8  | User                  | Add         | Video            |
+| 9  | Content Editor        | Add         | Video            |
+| 10 | Web Recruiter Manager | Confirm     | Recruiter        |
+| 11 | Web Recruiter Manager | Confirm     | Recruiter        |
+| 12 | Team Member           | Identify    | Hypothesis       |
+| 13 | Developer             | Identify    | Hypothesis       |
+| 14 | Nsf Employee          | Join        | Github           |
+| 15 | Nsf Employee          | Learn       | Github           |
+| 16 | Visualdesigner        | Demonstrate | Visual Design    |
+| 17 | Site Administrator    | Analyze     | Visual Design    |

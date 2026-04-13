@@ -1,0 +1,28 @@
+#,Actor,Action,Object
+1,Camp Administrator,Schedule,Activity
+2,Camp Administrator,Schedule,Activity
+3,Parent,Track,Activity Schedule
+4,Parent,See,Activity Schedule
+5,Camp Administrator,Log,Attendance
+6,Camp Counselor,Take,Attendance
+7,Camp Administrator,Add,Camper
+8,Camp Administrator,Remove,Camper
+9,Camp Administrator,Suspend,Camper
+10,Camp Administrator,Delete,Camper
+11,Camp Worker,See,Camper
+12,Camp Worker,Report,Camper
+13,Camp Worker,See,Camper
+14,Camp Administrator,Upload,Consent Form
+15,Parent,See,Consent Form
+16,Parent,Submit,Consent Form
+17,Parent,See,Counselor
+18,Parent,Message,Counselor
+19,Camp Administrator,Create,Nametag
+20,Camp Administrator,Make,Nametag
+21,Camp Administrator,Notify,Parent
+22,Camp Administrator,Add,Parent
+23,Camp Administrator,Delete,Parent
+24,Camp Administrator,Store,Parent Information
+25,Camp Administrator,Modify,Parent Information
+26,Camp Administrator,Delete,Task
+27,Camp Administrator,Modify,Task

@@ -1,0 +1,74 @@
+#,Actor,Action,Object
+1,Team Member,See,Beta Iteration
+2,Developer,Have,Subdomain
+3,Stakeholder,Have,Decision
+4,Nsf Employee,Understand,Process
+5,Stakeholder,See,Research Results
+6,Designer,Have,Wireframe
+7,Team Member,Have,Prioritized List
+8,Team Member,Determine,Design Direction
+9,User Researcher,Test,Research Plan
+10,User Researcher,Have,Task Script
+11,Content Editor,Find,Content
+12,Research Participant,Make,Appearance
+13,User Researcher,Have,Wig Prototype
+14,User,Add,Video
+15,Team Member,Meet,Dis Cloud.Gov
+16,User Researcher,Have,Workflow Candidates
+17,Team Member,Understand,Mvp
+18,Nsf Administrator,Shadow,Cms Implementation
+19,Team Member,Have,Acquisitions Roadmap
+20,Nsf Employee,Have,Roadmap Document
+21,Team Member,Understand,Time
+22,Researcher,Develop,Research Protocol
+23,Cms Administrator,Have,Roles
+24,Nsf Employee,Narrow,Cms Options
+25,Nsf Employee,Have,Workshop
+26,Cms Sme,See,Workflow Report
+27,Nsf Employee,Understand,Work
+28,Researcher,Recruit,User Research
+29,User Researcher,Continue,Scheduling Interviews
+30,Nsf Employee,Have,Strategy Recommendations
+31,Nsf Employee,Have,Editorial-Planning Recommendations
+32,Nsf Employee,Know,Brand Guidelines
+33,Web Recruiter Manager,Confirm,Recruiter
+34,Nsf Employee,Know,Design Directions
+35,Team Member,Know,Hypothesis
+36,Content Designer,Develop,Understanding
+37,Team Member,Have,Prototype Strategy
+38,Content Designer,Demonstrate,Value
+39,User Researcher,Know,Outreach
+40,Nsf Employee,Schedule,Check-Ins
+41,Developer,Know,Hypotheses
+42,Workshop Attendee,Have,Summary
+43,Designer,Know,Hypotheses
+44,Team Member,Have,Coworking Slots
+45,Nsf Person,Know,Interviews
+46,Nsf Member,Have,Place
+47,Team Member,Know,Mid-Point Checkin
+48,Nsf Employee,Join,Github
+49,Nsf Employee,Learn,Github
+50,User Researcher,Identify,Interview Participants
+51,Visual Designer,Concept,Styles
+52,User Researcher,Set,Recruitment Test
+53,Web Recruiter Manager,Confirm,Recruiter
+54,Visual Designer,Create,Moodboard
+55,Workshop Attendee,See,Summary
+56,User Researcher,Make,Nsf People
+57,User Researcher,Draft,Research Plan
+58,Content Editor,Add,Videos
+59,Author,Indent,Content
+60,Visual Designer,Demonstrate,Value
+61,Team Member,Know,Tasks
+62,Team Member,Have,Email Templates
+63,Nsf Employee,See,Recruitment Form
+64,Potential Research Participant,Learn,Research
+65,Team Member,Have,Project Timeline
+66,Site Administrator,Understand,Visual Design
+67,Team Member,Have,Platform
+68,Site Administrator,Understand,Content
+69,User Researcher,Conduct,Definition Workshop
+70,Nsf Employee,Know,Meeting
+71,Designer,Have,Guide
+72,Team Member,Know,Meetings
+73,Team Member,Understand,Work

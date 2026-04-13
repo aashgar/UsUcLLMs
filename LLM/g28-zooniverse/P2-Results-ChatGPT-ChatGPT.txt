@@ -1,0 +1,20 @@
+| #  | Actor            | Action    | Object                 |
+| 1  | User             | Search    | Content Item           |
+| 2  | User             | Search    | Content Item           |
+| 3  | User             | Receive   | Content Recommendation |
+| 4  | User             | Receive   | Content Recommendation |
+| 5  | User             | Access    | Content                |
+| 6  | Admin            | Prefilter | Content                |
+| 7  | Admin            | Prefilter | Content                |
+| 8  | User             | Search    | Music                  |
+| 9  | User             | Search    | Music                  |
+| 10 | User             | Search    | Music                  |
+| 11 | User             | Search    | Music                  |
+| 12 | User             | Take      | Picture                |
+| 13 | Zooniverse Admin | Assess    | Picture                |
+| 14 | User             | Get       | Video Item             |
+| 15 | User             | Get       | Video Item             |
+| 16 | Zooniverse Admin | Know      | Volunteer              |
+| 17 | Zooniverse Admin | Know      | Volunteer              |
+| 18 | Zooniverse Admin | Know      | Volunteer              |
+| 19 | Zooniverse Admin | Know      | Volunteer              |

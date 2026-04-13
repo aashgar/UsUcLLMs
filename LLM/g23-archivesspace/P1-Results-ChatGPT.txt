@@ -1,0 +1,57 @@
+| #  | Actor                     | Action       | Object                |
+| 1  | Researcher                | View         | Finding Aid           |
+| 2  | Application Administrator | Reset        | Password              |
+| 3  | User                      | Manage       | Enum Lists            |
+| 4  | Archivist                 | Import       | EAD Files             |
+| 5  | Archivist                 | Assign       | Unique Identifier     |
+| 6  | User                      | Authenticate | LDAP                  |
+| 7  | Migration Specialist      | Store        | Source Record Ids     |
+| 8  | Archivist                 | Associate    | Identifier String     |
+| 9  | Archivist                 | Understand   | Import Error          |
+| 10 | Archivist                 | Import       | Accessions Data       |
+| 11 | Archivist                 | Import       | Resources             |
+| 12 | User                      | Manage       | Enum Lists            |
+| 13 | Authenticated User        | Access       | Contextual Help       |
+| 14 | Archivist                 | View         | Dates Extents         |
+| 15 | Archivist                 | Import       | Agent Information     |
+| 16 | User                      | Support      | Enum Lists            |
+| 17 | User                      | Update       | Enum Value            |
+| 18 | Archivist                 | Export       | Agent Records         |
+| 19 | Archivist                 | Import       | Agent Information     |
+| 20 | Application Administrator | Assign       | Users                 |
+| 21 | Application Administrator | Configure    | Help Center           |
+| 22 | User                      | Add          | Properties            |
+| 23 | Archivist                 | Add          | Notes                 |
+| 24 | Administrator             | Create       | User Account          |
+| 25 | Archivist                 | Add          | Administrative Data   |
+| 26 | Archivist                 | Assign       | Level Description     |
+| 27 | Developer                 | Use          | Configuration         |
+| 28 | Archivist                 | Import       | EAD Files             |
+| 29 | Systems Administrator     | Control      | Database Location     |
+| 30 | Archivist                 | Search       | Repository Records    |
+| 31 | Archivist                 | Create       | Collection Management |
+| 32 | Archivist                 | Rearrange    | Resource Hierarchy    |
+| 33 | Archivist                 | Rearrange    | Description Hierarchy |
+| 34 | Archivist                 | Indicate     | Agent Role            |
+| 35 | Archivist                 | Export       | Description           |
+| 36 | Archivist                 | Create       | Event Records         |
+| 37 | Archivist                 | Manage       | Digital Objects       |
+| 38 | Archivist                 | Associate    | Instance              |
+| 39 | Archivist                 | Overwrite    | Record Changes        |
+| 40 | Archivist                 | Create       | Rights Statements     |
+| 41 | Archivist                 | Upload       | EAD                   |
+| 42 | Archivist                 | Import       | EAD Data              |
+| 43 | Repository Manager        | Manage       | Archival Descriptions |
+| 44 | Developer                 | Develop      | Custom Importer       |
+| 45 | Basic Data Entry User     | Manage       | Archival Description  |
+| 46 | Repository Manager        | Manage       | Records               |
+| 47 | Readonly User             | View         | Archival Descriptions |
+| 48 | System Administrator      | Declare      | User Role             |
+| 49 | Archivist                 | Specify      | Name Source           |
+| 50 | Archivist                 | Create       | Agent Records         |
+| 51 | Archivist                 | Create       | Resource Record       |
+| 52 | Archivist                 | Associate    | Subject Record        |
+| 53 | User                      | Authenticate | Locally               |
+| 54 | User                      | Log In       | Account               |
+| 55 | Archivist                 | Associate    | Instance              |
+| 56 | Archivist                 | Assign       | Location Information  |

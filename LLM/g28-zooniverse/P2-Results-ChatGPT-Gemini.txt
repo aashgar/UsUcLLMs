@@ -1,0 +1,20 @@
+#,Actor,Action,Object
+1,User,Access,Content
+2,Admin,Prefilter,Content
+3,Admin,Prefilter,Content
+4,User,Search,Content Item
+5,User,Search,Content Item
+6,User,Receive,Content Recommendation
+7,User,Receive,Content Recommendation
+8,User,Search,Music
+9,User,Search,Music
+10,User,Search,Music
+11,User,Search,Music
+12,User,Take,Picture
+13,Zooniverse Admin,Assess,Picture
+14,User,Get,Video Item
+15,User,Get,Video Item
+16,Zooniverse Admin,Know,Volunteer
+17,Zooniverse Admin,Know,Volunteer
+18,Zooniverse Admin,Know,Volunteer
+19,Zooniverse Admin,Know,Volunteer
